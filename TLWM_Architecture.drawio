@@ -1,0 +1,336 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="7chMexAZoHtVbvbNBaKn" name="Page-1">
+    <mxGraphModel dx="851" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3508" pageHeight="2480" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1a1a2e;" value="TLWM Architecture Complète du Système (En cours, peut subir des modifications par la suite)" vertex="1">
+          <mxGeometry height="50" width="2700" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="200" width="340" x="30" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;" value="LÉGENDE" vertex="1">
+          <mxGeometry height="25" width="340" x="30" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Application / Module" vertex="1">
+          <mxGeometry height="28" width="160" x="45" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Base de données / Table" vertex="1">
+          <mxGeometry height="28" width="145" x="215" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Endpoint API REST" vertex="1">
+          <mxGeometry height="28" width="160" x="45" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Composant / Page React" vertex="1">
+          <mxGeometry height="28" width="145" x="215" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="→  Flux de données (HTTP/JSON)" vertex="1">
+          <mxGeometry height="25" width="300" x="45" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="⊶  Clé étrangère (FK)" vertex="1">
+          <mxGeometry height="25" width="300" x="45" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="leg7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;" value="JWT Bearer Token (Auth)" vertex="1">
+          <mxGeometry height="25" width="300" x="45" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="collecte_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=20;" value="" vertex="1">
+          <mxGeometry height="920" width="700" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="collecte_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=15;fontColor=#0066cc;rounded=0;" value="&amp;nbsp;APP COLLECTE (Saisie des données)" vertex="1">
+          <mxGeometry height="35" width="700" x="30" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="collecte_tech" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontColor=#555;" value="React + Vite + TailwindCSS  |  Port: dev/dist  |  /collecte" vertex="1">
+          <mxGeometry height="20" width="700" x="30" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_ctx" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;AuthContext.jsx&lt;br&gt;(Context React)&lt;br&gt;&lt;br&gt;• user, token (localStorage)&lt;br&gt;• login() / logout()&lt;br&gt;• loading state" vertex="1">
+          <mxGeometry height="110" width="200" x="50" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="login_page" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;LoginPage.jsx&lt;br&gt;&lt;br&gt;• Formulaire Email / Password&lt;br&gt;• Inscription (register)&lt;br&gt;• Gestion statut EN_ATTENTE&lt;br&gt;• Rôle demandé à l&#39;inscription" vertex="1">
+          <mxGeometry height="110" width="210" x="270" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="collecte_app" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;App.jsx (Router)&lt;br&gt;&lt;br&gt;RÔLES &amp;amp; ACCÈS :&lt;br&gt;• ADMIN_AFRIQUE → tout&lt;br&gt;• ADMIN_PAYS → son pays&lt;br&gt;• SUPERVISEUR_DISTRICT → son district&lt;br&gt;• RAPPORTEUR_ASSEMBLEE → son assemblée&lt;br&gt;&lt;br&gt;Navigation filtrée selon le rôle" vertex="1">
+          <mxGeometry height="150" width="220" x="490" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_dash" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;AdminDashboardPage.jsx&lt;br&gt;&lt;br&gt;• Stats consolidées nationales&lt;br&gt;• KPIs : membres, séminaires, sauvés&lt;br&gt;• Graphiques mensuels&lt;br&gt;• Filtres : année, district&lt;br&gt;Rôles: MID_ROLES+" vertex="1">
+          <mxGeometry height="130" width="210" x="50" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="rapport_asm" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;RapportAssembleePage.jsx&lt;br&gt;&lt;br&gt;• Saisie mensuelle assemblée&lt;br&gt;• Séminaires (en assemblée / hors)&lt;br&gt;• Assistance cultes / mission&lt;br&gt;• Sauvés, ajoutés, témoignages&lt;br&gt;• Membres, prédicateurs, pasteurs&lt;br&gt;• Finances: offrandes, dîmes, BP...&lt;br&gt;• Comité de l&#39;assemblée&lt;br&gt;• Membres de l&#39;assemblée (CRUD)&lt;br&gt;• Activités de l&#39;assemblée&lt;br&gt;Rôles: ALL_ROLES" vertex="1">
+          <mxGeometry height="200" width="210" x="270" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rapport_dist" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;RapportDistrictPage.jsx&lt;br&gt;&lt;br&gt;• Activités propres du district&lt;br&gt;• Tableau des activités (CRUD)&lt;br&gt;• Type: Formation, CPPD, Évangélisation...&lt;br&gt;• Participants: H / F / Jeunes / +Jeunes&lt;br&gt;• Réussites &amp;amp; difficultés&lt;br&gt;Rôles: MID_ROLES" vertex="1">
+          <mxGeometry height="155" width="210" x="490" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="rapport_nat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;RapportNationalPage.jsx&lt;br&gt;&lt;br&gt;• Activités nationales par pays&lt;br&gt;• Même structure que district&lt;br&gt;• Filtré par pays_id de l&#39;utilisateur&lt;br&gt;Rôles: HIGH_ROLES" vertex="1">
+          <mxGeometry height="110" width="210" x="50" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion_pays" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;GestionPaysPage.jsx&lt;br&gt;&lt;br&gt;• CRUD Pays (code, nom)&lt;br&gt;• CRUD Districts (par pays)&lt;br&gt;• CRUD Assemblées (par district)&lt;br&gt;• Statistiques par pays&lt;br&gt;Rôles: ADMIN_AFRIQUE" vertex="1">
+          <mxGeometry height="130" width="210" x="490" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion_users" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;GestionUtilisateursPage.jsx&lt;br&gt;&lt;br&gt;• Lister / Filtrer les utilisateurs&lt;br&gt;• Créer un compte (ACTIF direct)&lt;br&gt;• Modifier rôle / portée / statut&lt;br&gt;• Valider / Rejeter comptes EN_ATTENTE&lt;br&gt;• Réinitialiser mot de passe&lt;br&gt;• Supprimer un utilisateur&lt;br&gt;Rôles: ADMIN_AFRIQUE + ADMIN_PAYS" vertex="1">
+          <mxGeometry height="160" width="210" x="270" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="api_client" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;api.js (Client API)&lt;br&gt;&lt;br&gt;BASE_URL: http://localhost:5000/api&lt;br&gt;Token: localStorage &#39;tlwm_token&#39;&lt;br&gt;Auto-logout si 401/403&lt;br&gt;&lt;br&gt;Fonctions exportées:&lt;br&gt;• login(), register()&lt;br&gt;• getPays/Districts/Assemblees()&lt;br&gt;• getRapportsAssemblee()&lt;br&gt;• submitRapportAssembleeComplet()&lt;br&gt;• getActivites() / addActivite()&lt;br&gt;• getMembres() / addMembre()&lt;br&gt;• getFinancesAssemblee()&lt;br&gt;• getDashboardStats()&lt;br&gt;• getAdminUtilisateurs()..." vertex="1">
+          <mxGeometry height="320" width="640" x="50" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="backend_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=20;" value="" vertex="1">
+          <mxGeometry height="960" width="860" x="760" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="backend_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=15;fontColor=#cc8800;" value="&amp;nbsp;BACKEND API (Node.js / Express)" vertex="1">
+          <mxGeometry height="35" width="860" x="760" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="backend_tech" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontColor=#555;" value="Express.js  |  bcryptjs  |  jsonwebtoken  |  pg (node-postgres)  |  dotenv  |  Port: 5000" vertex="1">
+          <mxGeometry height="20" width="860" x="760" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="middlewares" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Middlewares&lt;br&gt;&lt;br&gt;• cors() — Autorise les origines frontend&lt;br&gt;• express.json() — Parse le body JSON&lt;br&gt;• authenticateToken() — Vérifie JWT Bearer&lt;br&gt;• requireAdmin() — Vérifie rôle ADMIN_*" vertex="1">
+          <mxGeometry height="110" width="310" x="780" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="dbjs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;db.js (Pool PostgreSQL)&lt;br&gt;&lt;br&gt;• pg.Pool — connexions multiples&lt;br&gt;• PGHOST / PGPORT / PGDATABASE&lt;br&gt;• PGUSER / PGPASSWORD (.env)&lt;br&gt;• SSL en production" vertex="1">
+          <mxGeometry height="110" width="285" x="1110" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="route_auth" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Auth Routes&lt;br&gt;&lt;br&gt;POST /api/auth/login&lt;br&gt;  → Vérif email + password (bcrypt)&lt;br&gt;  → Contrôle statut ACTIF/EN_ATTENTE/REJETE&lt;br&gt;  → Retourne JWT (24h) + user payload&lt;br&gt;&lt;br&gt;POST /api/auth/register&lt;br&gt;  → Création compte statut EN_ATTENTE&lt;br&gt;  → Rôle RAPPORTEUR_ASSEMBLEE par défaut" vertex="1">
+          <mxGeometry height="175" width="290" x="780" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="route_admin_users" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Admin Utilisateurs (protégé Admin)&lt;br&gt;&lt;br&gt;GET    /api/admin/utilisateurs [?filtres]&lt;br&gt;POST   /api/admin/utilisateurs&lt;br&gt;PUT    /api/admin/utilisateurs/:id&lt;br&gt;PATCH  /api/admin/utilisateurs/:id/statut&lt;br&gt;PATCH  /api/admin/utilisateurs/:id/reset-password&lt;br&gt;DELETE /api/admin/utilisateurs/:id&lt;br&gt;&lt;br&gt;RBAC: ADMIN_AFRIQUE voit tout&lt;br&gt;       ADMIN_PAYS voit son pays seul" vertex="1">
+          <mxGeometry height="175" width="300" x="1080" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="route_ref" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Référentiel (Pays / Districts / Assemblées)&lt;br&gt;&lt;br&gt;GET    /api/referentiel/pays&lt;br&gt;GET    /api/referentiel/pays-stats&lt;br&gt;POST   /api/referentiel/pays [auth]&lt;br&gt;PUT    /api/referentiel/pays/:id [auth]&lt;br&gt;DELETE /api/referentiel/pays/:id [auth]&lt;br&gt;GET    /api/referentiel/pays/:id/stats&lt;br&gt;&lt;br&gt;GET    /api/referentiel/districts [?pays_id]&lt;br&gt;POST/PUT/DELETE /api/referentiel/districts/:id [auth]&lt;br&gt;&lt;br&gt;GET    /api/referentiel/assemblees [?district_id]&lt;br&gt;POST/PUT/DELETE /api/referentiel/assemblees/:id [auth]" vertex="1">
+          <mxGeometry height="220" width="310" x="780" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="route_rapports" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Rapports Assemblée&lt;br&gt;&lt;br&gt;GET  /api/rapports/assemblee [?filtres]&lt;br&gt;POST /api/rapports/assemblee&lt;br&gt;     → UPSERT (ON CONFLICT)&lt;br&gt;&lt;br&gt;GET  /api/rapports/assemblee/historique&lt;br&gt;POST /api/rapports/assemblee/complet&lt;br&gt;     → Version étendue (33 champs)&lt;br&gt;     → Réussites, difficultés, besoins" vertex="1">
+          <mxGeometry height="175" width="300" x="1100" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="route_activites" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Activités (Unified Table)&lt;br&gt;&lt;br&gt;GET/POST/PUT/DELETE /api/activites&lt;br&gt;  → ?niveau=assemblee|district|national&lt;br&gt;  → ?assemblee_id / district_id / pays_id&lt;br&gt;&lt;br&gt;GET/POST /api/activites-district&lt;br&gt;GET/POST /api/activites-national&lt;br&gt;&lt;br&gt;Table &#39;activites&#39;: niveau + portée&lt;br&gt;(assemblee_id OR district_id OR pays_id)" vertex="1">
+          <mxGeometry height="175" width="300" x="780" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="route_membres" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Membres &amp;amp; Comité&lt;br&gt;&lt;br&gt;GET/POST/DELETE /api/comite/:assembleeId&lt;br&gt;GET/PUT/DELETE  /api/comite/membre/:id&lt;br&gt;&lt;br&gt;GET    /api/membres/:assembleeId [?filtres]&lt;br&gt;GET    /api/membres/:assembleeId/stats&lt;br&gt;POST   /api/membres/:assembleeId&lt;br&gt;PUT    /api/membres/:id&lt;br&gt;DELETE /api/membres/:id&lt;br&gt;&lt;br&gt;24 champs étendus (salut, baptême,&lt;br&gt;profession, quartier, assiduite...)" vertex="1">
+          <mxGeometry height="200" width="300" x="1100" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="route_dash_fin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;Dashboard &amp;amp; Finances&lt;br&gt;&lt;br&gt;GET /api/dashboard/stats?annee=X&lt;br&gt;  → Agrégation par mois (SUM)&lt;br&gt;  → sem_total, assistance, sauvés...&lt;br&gt;&lt;br&gt;GET/POST /api/finances/assemblee&lt;br&gt;  → Ventilation Offrandes / Dîmes / BP / DOVOCOQ&lt;br&gt;  → % par niveau: Asm / Dist / Coord / Afrique&lt;br&gt;  → UPSERT par (assemblee_id, annee, mois)&lt;br&gt;&lt;br&gt;GET /api/health → Status check" vertex="1">
+          <mxGeometry height="160" width="620" x="780" y="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="db_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=20;" value="" vertex="1">
+          <mxGeometry height="1620" width="1270" x="1660" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="db_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=15;fontColor=#338833;" value="&amp;nbsp;BASE DE DONNÉES PostgreSQL_tlwm_db" vertex="1">
+          <mxGeometry height="35" width="1100" x="1660" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="db_tech" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontColor=#555;" value="PostgreSQL  |  port: 5432  |  Extension: uuid-ossp  |  Node pool: pg" vertex="1">
+          <mxGeometry height="20" width="1100" x="1660" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="t_pays" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: pays&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id           SERIAL PK&lt;br&gt;   code_pays    VARCHAR(10) UNIQUE&lt;br&gt;   nom_pays     VARCHAR(100)&lt;br&gt;   created_at   TIMESTAMP&lt;br&gt;─────────────────────────────&lt;br&gt;Exemples: TG=Togo, BJ=Bénin, CI=Côte d&#39;Ivoire" vertex="1">
+          <mxGeometry height="155" width="320" x="1680" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="t_districts" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: districts&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id             SERIAL PK&lt;br&gt;⊶  pays_id        FK → pays(id) CASCADE&lt;br&gt;   code_district  VARCHAR(50) UNIQUE&lt;br&gt;   nom_district   VARCHAR(100)&lt;br&gt;   created_at     TIMESTAMP&lt;br&gt;   updated_at     TIMESTAMP&lt;br&gt;─────────────────────────────&lt;br&gt;Index: idx_assemblees_district" vertex="1">
+          <mxGeometry height="175" width="320" x="2020" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="t_assemblees" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: assemblees&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id                  SERIAL PK&lt;br&gt;⊶  district_id         FK → districts(id) CASCADE&lt;br&gt;   code_assemblee      VARCHAR(50) UNIQUE&lt;br&gt;   nom_assemblee       VARCHAR(150)&lt;br&gt;   type_unite          VARCHAR(50) [Assemblée|Cellule]&lt;br&gt;   pasteur_responsable VARCHAR(150)&lt;br&gt;   latitude            NUMERIC(10,6)&lt;br&gt;   longitude           NUMERIC(10,6)&lt;br&gt;   effectif_base       INTEGER&lt;br&gt;   created_at / updated_at" vertex="1">
+          <mxGeometry height="205" width="360" x="2530" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t_utilisateurs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: utilisateurs&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id            SERIAL PK&lt;br&gt;   nom            VARCHAR(100)&lt;br&gt;   email          VARCHAR(150) UNIQUE&lt;br&gt;   password_hash  VARCHAR(255) [bcrypt]&lt;br&gt;   role           VARCHAR(50):&lt;br&gt;     • ADMIN_AFRIQUE&lt;br&gt;     • ADMIN_PAYS&lt;br&gt;     • SUPERVISEUR_DISTRICT&lt;br&gt;     • RAPPORTEUR_ASSEMBLEE&lt;br&gt;   statut         [ACTIF|EN_ATTENTE|REJETE|INACTIF]&lt;br&gt;⊶  pays_id        FK → pays(id) SET NULL&lt;br&gt;⊶  district_id    FK → districts(id) SET NULL&lt;br&gt;⊶  assemblee_id   FK → assemblees(id) SET NULL&lt;br&gt;   created_at" vertex="1">
+          <mxGeometry height="285" width="350" x="1680" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="t_comite" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: comite_assemblee&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id                   SERIAL PK&lt;br&gt;⊶  assemblee_id         FK → assemblees(id) CASCADE&lt;br&gt;   fonction             VARCHAR(100)&lt;br&gt;   nom                  VARCHAR(100)&lt;br&gt;   prenoms              VARCHAR(150)&lt;br&gt;   contact              VARCHAR(50)&lt;br&gt;   date_entree_fonction DATE [ajout dynamique]&lt;br&gt;   created_at / updated_at" vertex="1">
+          <mxGeometry height="175" width="330" x="2050" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t_membres" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: membres_assemblee&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id                       SERIAL PK&lt;br&gt;⊶  assemblee_id             FK → assemblees(id) CASCADE&lt;br&gt;   nom / prenoms / sexe&lt;br&gt;   date_naissance / contact&lt;br&gt;   statut_membre   [Actif|Inactif|Visiteur]&lt;br&gt;   type_membre     [Membre|Prédicateur|Pasteur]&lt;br&gt;   date_adhesion / date_salut / date_bapteme&lt;br&gt;   division_ga / situation_matrimoniale&lt;br&gt;   nbre_enfants / conjoint_sauve&lt;br&gt;   quartier / profession / activite_assemblee&lt;br&gt;   assiduite [Fort|Moyen|Faible]&lt;br&gt;   actif_liberalites [Oui|Non]&lt;br&gt;   date_entree_assemblee / date_mutation&lt;br&gt;   ancienne_assemblee / notes&lt;br&gt;─────────────────────────────&lt;br&gt;Index: idx_membres_assemblee" vertex="1">
+          <mxGeometry height="310" width="340" x="2510" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="t_rapports" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: rapports_assemblee&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id               SERIAL PK&lt;br&gt;⊶  assemblee_id     FK → assemblees(id) CASCADE&lt;br&gt;   annee / mois     [Janvier..Décembre]&lt;br&gt;─── &lt;b&gt;Séminaires&lt;/b&gt; ───&lt;br&gt;   sem_assemblees / sem_hors&lt;br&gt;   sem_total        GENERATED (sem_asm + sem_hors)&lt;br&gt;─── &lt;b&gt;Assistance &amp;amp; Impact&lt;/b&gt; ───&lt;br&gt;   assistance_cultes / assistance_mission&lt;br&gt;   assistance_totale / sauves / ajoutes&lt;br&gt;   invites / temoignages&lt;br&gt;───&lt;b&gt; Ressources Humaines&lt;/b&gt; ───&lt;br&gt;   membres_actifs / membres_nouveaux&lt;br&gt;   membres_transferes_entrants/sortants/decedes&lt;br&gt;   predicateurs / pasteurs&lt;br&gt;   cultes_tenus / seminaires_tenus / formations_tenues&lt;br&gt;─── &lt;b&gt;Finances&lt;/b&gt; ───&lt;br&gt;   offrandes / dimes / bp / dovocoq&lt;br&gt;   autres_liberalites / depenses_seminaires&lt;br&gt;   depenses_fonctionnement / depenses_mission&lt;br&gt;   remontee_district&lt;br&gt;─── &lt;b&gt;Texte&lt;/b&gt; ───&lt;br&gt;   reussites / difficultes / besoins / perspectives&lt;br&gt;   statut [BROUILLON|SOUMIS|VALIDE]&lt;br&gt;─────────────────────────────&lt;br&gt;UNIQUE(assemblee_id, annee, mois)&lt;br&gt;Index: idx_rapports_annee_mois" vertex="1">
+          <mxGeometry height="480" width="380" x="1680" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="t_activites" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: activites (Unified)&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id                    SERIAL PK&lt;br&gt;   niveau               [assemblee|district|national]&lt;br&gt;⊶  assemblee_id         FK → assemblees(id) CASCADE&lt;br&gt;⊶  district_id          FK → districts(id) CASCADE&lt;br&gt;⊶  pays_id              FK → pays(id) CASCADE&lt;br&gt;   annee / mois&lt;br&gt;   date_activite / type_activite&lt;br&gt;   nom_activite / departement_concerne&lt;br&gt;   lieu / nb_jours&lt;br&gt;   pasteur_responsable / intervenant_principal&lt;br&gt;   theme_module&lt;br&gt;   ass_femmes / ass_hommes / ass_jeunes&lt;br&gt;   assistance_totale&lt;br&gt;   budget_fcfa / depenses_fcfa&lt;br&gt;   observations / created_at" vertex="1">
+          <mxGeometry height="340" width="360" x="2080" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="t_act_dist" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: activites_district&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id                  SERIAL PK&lt;br&gt;⊶  district_id         FK → districts(id) CASCADE&lt;br&gt;   annee / mois / date_activite&lt;br&gt;   type_activite / nom_activite / lieu&lt;br&gt;   nb_jours / intervenant_principal&lt;br&gt;   theme_module&lt;br&gt;   hommes / femmes / jeunes / plus_jeunes&lt;br&gt;   assistance_totale&lt;br&gt;   budget_fcfa / depenses_fcfa&lt;br&gt;   observations / created_at" vertex="1">
+          <mxGeometry height="270" width="280" x="2460" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="t_act_nat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: activites_national&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id                  SERIAL PK&lt;br&gt;⊶  pays_id             FK → pays(id) CASCADE&lt;br&gt;   annee / mois / date_activite&lt;br&gt;   type_activite / nom_activite / lieu&lt;br&gt;   nb_jours / intervenant_principal&lt;br&gt;   theme_module&lt;br&gt;   hommes / femmes / jeunes / plus_jeunes&lt;br&gt;   assistance_totale&lt;br&gt;   budget_fcfa / depenses_fcfa&lt;br&gt;   observations / created_at&lt;br&gt;─────────────────────────────&lt;br&gt;[Table créée dynamiquement au 1er appel]" vertex="1">
+          <mxGeometry height="280" width="280" x="2460" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="t_finances" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: finances_assemblee&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id               SERIAL PK&lt;br&gt;⊶  assemblee_id     FK → assemblees(id) CASCADE&lt;br&gt;   annee / mois&lt;br&gt;─── &lt;b&gt;Offrandes&lt;/b&gt; ───&lt;br&gt;   offrandes_total / offrandes_pct_asm&lt;br&gt;   offrandes_pct_dist / offrandes_pct_coord&lt;br&gt;   offrandes_pct_afrique&lt;br&gt;───&lt;b&gt; Dîmes&lt;/b&gt; ───&lt;br&gt;   dimes_total / dimes_pct_asm...&lt;br&gt;─── &lt;b&gt;BP (Bénédiction Pastorale)&lt;/b&gt; ───&lt;br&gt;   bp_total / bp_pct_asm...&lt;br&gt;─── &lt;b&gt;DOVOCOQ&lt;/b&gt; ───&lt;br&gt;   dovocoq_total / dovocoq_pct_asm...&lt;br&gt;─── &lt;b&gt;Dons&lt;/b&gt; ───&lt;br&gt;   dons_total / observations_finances&lt;br&gt;─────────────────────────────&lt;br&gt;UNIQUE(assemblee_id, annee, mois)" vertex="1">
+          <mxGeometry height="340" width="360" x="2080" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="t_fin_dist" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: finances_district&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id                    SERIAL PK&lt;br&gt;⊶  district_id           FK → districts(id) CASCADE&lt;br&gt;   annee / mois&lt;br&gt;   remontees_assemblees   NUMERIC(12,2)&lt;br&gt;   dotation_national      NUMERIC(12,2)&lt;br&gt;   autres_recettes        NUMERIC(12,2)&lt;br&gt;   depenses_locales       NUMERIC(12,2)&lt;br&gt;   dotations_redistribuees NUMERIC(12,2)&lt;br&gt;   created_at&lt;br&gt;─────────────────────────────&lt;br&gt;UNIQUE(district_id, annee, mois)" vertex="1">
+          <mxGeometry height="220" width="360" x="1680" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="t_reussites" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;" value="&amp;nbsp;TABLE: reussites_difficultes&lt;br&gt;─────────────────────────────&lt;br&gt;&amp;nbsp;id              SERIAL PK&lt;br&gt;⊶  district_id     FK → districts(id) CASCADE&lt;br&gt;   annee / mois&lt;br&gt;   type       [Réussite|Difficulté|Perspective]&lt;br&gt;   categorie  [Mission|RH|Finance...]&lt;br&gt;   description TEXT&lt;br&gt;   statut     [Résolu|En cours|Nouveau]&lt;br&gt;   actions_suivi TEXT&lt;br&gt;   created_at" vertex="1">
+          <mxGeometry height="220" width="360" x="1680" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="dash_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=20;" value="" vertex="1">
+          <mxGeometry height="660" width="700" x="30" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="dash_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=15;fontColor=#aa0000;" value="&amp;nbsp;TLWM-DASHBOARD (Visualisation Read-Only)" vertex="1">
+          <mxGeometry height="35" width="700" x="30" y="1295" as="geometry" />
+        </mxCell>
+        <mxCell id="dash_tech" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontColor=#555;" value="React + Vite + TailwindCSS + Zustand + Recharts + Leaflet + React-Leaflet  |  Données statiques JSON" vertex="1">
+          <mxGeometry height="20" width="700" x="30" y="1325" as="geometry" />
+        </mxCell>
+        <mxCell id="dash_page" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;Dashboard.jsx&lt;br&gt;&lt;br&gt;• Filtres: Année / Mois(multi) / District&lt;br&gt;• KPICard: Sauvés, Ajoutés, Membres, Séminaires&lt;br&gt;• MonthlyLineChart: Évolution mensuelle&lt;br&gt;• YoYChart: Comparatif année N vs N-1&lt;br&gt;• SeminarsBarChart: Séminaires par mois&lt;br&gt;• SavedVsAddedChart: Sauvés vs Ajoutés&lt;br&gt;• PieRepartition: Répartition par districts&lt;br&gt;• ActivitiesTable: Tableau des activités&lt;br&gt;• DifficultesSection: Réussites / Difficultés&lt;br&gt;• MissionPulse: Indicateur mission" vertex="1">
+          <mxGeometry height="250" width="320" x="50" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="map_page" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="&amp;nbsp;MapPage.jsx (Lazy loaded)&lt;br&gt;&lt;br&gt;• Leaflet + React-Leaflet&lt;br&gt;• togo_admin.geojson — limites admin&lt;br&gt;• togo_districts_hull.geojson — districts&lt;br&gt;• togo_roads.geojson — réseau routier&lt;br&gt;• Marqueurs Assemblées (lat/lon)&lt;br&gt;• Popup: nom assemblée, district, pasteur&lt;br&gt;• Filtres géographiques" vertex="1">
+          <mxGeometry height="180" width="310" x="385" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="dash_sidebar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;" value="◀ Sidebar.jsx&#xa;&#xa;• Logo LWM&#xa;• Navigation: Dashboard / Carte&#xa;• Filtres intégrés (mois, année, district)&#xa;• Bouton Dark/Light mode&#xa;• Collapsible (260px ↔ 68px)" vertex="1">
+          <mxGeometry height="130" width="240" x="50" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="dash_store" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" value="&amp;nbsp;useStore.js (Zustand)&lt;br&gt;&lt;br&gt;State global:&lt;br&gt;• selectedYear: 2024&lt;br&gt;• selectedMonths: [] (multi-select)&lt;br&gt;• selectedDistrict: null&lt;br&gt;• currentPage: dashboard|map&lt;br&gt;• theme: dark|light (localStorage)&lt;br&gt;• sidebarOpen: boolean&lt;br&gt;&lt;br&gt;Actions: toggleMonth, setYear,&lt;br&gt;setDistrict, toggleTheme, toggleSidebar" vertex="1">
+          <mxGeometry height="220" width="250" x="400" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="dash_data" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;" value="&amp;nbsp;/src/data/ (Données statiques)&lt;br&gt;&lt;br&gt;• assembleesData.json — Assemblées Togo&lt;br&gt;• realData.json — Données historiques&lt;br&gt;• mockData.js — Données de démo&lt;br&gt;• togo_admin.geojson — Géo admin (494KB)&lt;br&gt;• togo_districts_hull.geojson (11KB)&lt;br&gt;• togo_roads.geojson — Routes (868KB)" vertex="1">
+          <mxGeometry height="160" width="310" x="50" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pays_dist" edge="1" parent="1" source="t_pays" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_districts" value="pays_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dist_asm" edge="1" parent="1" source="t_districts" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_assemblees" value="district_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_asm_comite" edge="1" parent="1" source="t_assemblees" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_comite" value="assemblee_id FK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_asm_membres" edge="1" parent="1" source="t_assemblees" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_membres" value="assemblee_id FK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_asm_rapports" edge="1" parent="1" source="t_assemblees" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_rapports" value="assemblee_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_asm_fin" edge="1" parent="1" source="t_assemblees" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_finances" value="assemblee_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dist_actdist" edge="1" parent="1" source="t_districts" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_act_dist" value="district_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dist_findist" edge="1" parent="1" source="t_districts" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_fin_dist" value="district_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vEvyFHcYT7pK0H4hCRFe-1" connectable="0" parent="e_dist_findist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.1408" y="-1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_dist_reuss" edge="1" parent="1" source="t_districts" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_reussites" value="district_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pays_actnat" edge="1" parent="1" source="t_pays" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;endArrow=ERmany;" target="t_act_nat" value="pays_id FK CASCADE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_asm_act" edge="1" parent="1" source="t_assemblees" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#999;strokeWidth=1;endArrow=ERmany;dashed=1;" target="t_activites" value="assemblee_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_users_pays" edge="1" parent="1" source="t_utilisateurs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6666aa;strokeWidth=1;endArrow=ERmany;dashed=1;" target="t_pays" value="pays_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_collecte_api" edge="1" parent="1" source="api_client" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0066cc;strokeWidth=3;endArrow=block;startArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="middlewares" value="HTTP/REST + JWT Bearer Token&#xa;(fetch / JSON)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_api_db" edge="1" parent="1" source="dbjs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#338833;strokeWidth=3;endArrow=block;startArrow=block;" target="t_pays" value="SQL Queries (pg Pool)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scripts_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=20;" value="" vertex="1">
+          <mxGeometry height="310" width="710" x="30" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="scripts_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#7700aa;" value="&amp;nbsp;SCRIPTS PYTHON / SQL (Extraction &amp;amp; Migration)" vertex="1">
+          <mxGeometry height="30" width="700" x="30" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="script_extract" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;" value="&amp;nbsp;extract_definitive.py / extract_final.py&lt;br&gt;extract_v2.py / extract_all.py&lt;br&gt;&lt;br&gt;• Lecture des fichiers Excel (rapports Word/Excel)&lt;br&gt;• Extraction données mensuelles 2024-2025&lt;br&gt;• Parsing assemblées, districts, stats&lt;br&gt;• Génération fichiers SQL pour import" vertex="1">
+          <mxGeometry height="130" width="310" x="50" y="2015" as="geometry" />
+        </mxCell>
+        <mxCell id="script_debug" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;" value="&amp;nbsp;debug_2024.py / debug_dec2024.py&lt;br&gt;check_data.py / debug_tables.py&lt;br&gt;&lt;br&gt;• Vérification intégrité des données&lt;br&gt;• Débogage des imports SQL&lt;br&gt;• Contrôle des tables PostgreSQL" vertex="1">
+          <mxGeometry height="130" width="310" x="380" y="2015" as="geometry" />
+        </mxCell>
+        <mxCell id="script_sql" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;" value="&amp;nbsp;database/schema.sql — Schéma complet (9 tables)&lt;br&gt;database/seed.sql — Données initiales (40KB)&lt;br&gt;database/migration_pays.sql — Table pays multi-pays&lt;br&gt;database/generate_seed.cjs — Générateur de seeds" vertex="1">
+          <mxGeometry height="90" width="640" x="50" y="2165" as="geometry" />
+        </mxCell>
+        <mxCell id="geo_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=20;" value="" vertex="1">
+          <mxGeometry height="350" width="860" x="760" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="geo_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#7700aa;" value="&amp;nbsp;DONNÉES GÉOGRAPHIQUES (Dashboard)" vertex="1">
+          <mxGeometry height="30" width="860" x="760" y="1295" as="geometry" />
+        </mxCell>
+        <mxCell id="geo_shp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;" value="&amp;nbsp;Scripts Conversion SHP → GeoJSON&lt;br&gt;&lt;br&gt;convert_shp.cjs — Shapefile vers GeoJSON&lt;br&gt;convert_roads_hulls.cjs — Routes + Hulls districts&lt;br&gt;fix_and_convert.cjs — Nettoyage géométries&lt;br&gt;inspect_dbf.cjs / inspect_roads.cjs — Inspection&lt;br&gt;extract_assemblees.cjs — Points assemblées&lt;br&gt;&lt;br&gt;Sources: tgo_admin_boundaries.shp, togo-260722-free.shp" vertex="1">
+          <mxGeometry height="180" width="380" x="780" y="1335" as="geometry" />
+        </mxCell>
+        <mxCell id="geo_json" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;" value="&amp;nbsp;GeoJSON (Bundlé avec Dashboard)&lt;br&gt;&lt;br&gt;togo_admin.geojson (494 KB)&lt;br&gt;  → Frontières admin: Régions + Préfectures&lt;br&gt;&lt;br&gt;togo_districts_hull.geojson (11 KB)&lt;br&gt;  → Polygones districts LWM&lt;br&gt;&lt;br&gt;togo_roads.geojson (868 KB)&lt;br&gt;  → Réseau routier national&lt;br&gt;&lt;br&gt;assembleesData.json (17 KB)&lt;br&gt;  → Coordonnées GPS + infos des assemblées" vertex="1">
+          <mxGeometry height="220" width="420" x="1180" y="1335" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=30;" value="" vertex="1">
+          <mxGeometry height="310" width="860" x="760" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#884400;" value="&amp;nbsp;HIÉRARCHIE RBAC (Contrôle d&#39;accès par rôle)" vertex="1">
+          <mxGeometry height="30" width="860" x="760" y="1665" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_admin_afr" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=left;" value="&amp;nbsp;ADMIN_AFRIQUE&lt;br&gt;─────────────────&lt;br&gt;Accès: TOUT&lt;br&gt;• Tous les pays, tous les districts, toutes les assemblées&lt;br&gt;• Créer/modifier/supprimer n&#39;importe quel utilisateur&lt;br&gt;• Gestion des pays (CRUD)&lt;br&gt;• Voir tous les rapports et stats" vertex="1">
+          <mxGeometry height="150" width="280" x="780" y="1705" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_admin_pays" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=left;" value="&amp;nbsp;ADMIN_PAYS&lt;br&gt;─────────────────&lt;br&gt;Accès: Son pays uniquement&lt;br&gt;• Tous les districts et assemblées de son pays&lt;br&gt;• CRUD utilisateurs de son pays&lt;br&gt;• Ne peut pas créer ADMIN_AFRIQUE&lt;br&gt;• Rapports nationaux de son pays" vertex="1">
+          <mxGeometry height="150" width="240" x="1075" y="1705" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_superv" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=left;" value="&amp;nbsp;SUPERVISEUR_DISTRICT&lt;br&gt;─────────────────&lt;br&gt;Accès: Son district uniquement&lt;br&gt;• Toutes les assemblées du district&lt;br&gt;• Saisie rapports district&lt;br&gt;• Vue consolidée du district&lt;br&gt;• Pas de gestion utilisateurs" vertex="1">
+          <mxGeometry height="150" width="240" x="1330" y="1705" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_rapp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=left;" value="&amp;nbsp;RAPPORTEUR_ASSEMBLEE&lt;br&gt;─────────────────&lt;br&gt;Accès: Son assemblée UNIQUEMENT&lt;br&gt;• Saisie rapport mensuel de son assemblée&lt;br&gt;• Membres de son assemblée&lt;br&gt;• Comité de son assemblée&lt;br&gt;• Vue limitée (son assemblée seule)" vertex="1">
+          <mxGeometry height="70" width="280" x="1080" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_e1" edge="1" parent="1" source="rbac_admin_afr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d79b00;strokeWidth=2;endArrow=block;" target="rbac_admin_pays" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_e2" edge="1" parent="1" source="rbac_admin_pays" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d79b00;strokeWidth=2;endArrow=block;" target="rbac_superv" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac_e3" edge="1" parent="1" source="rbac_superv" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d79b00;strokeWidth=2;endArrow=block;" target="rbac_rapp" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=13;fontColor=#333;" value="FLUX GÉNÉRAL : Rapporteur → Saisie → API → DB → Dashboard" vertex="1">
+          <mxGeometry height="30" width="1400" x="30" y="2295" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="1. Connexion&#xa;(LoginPage)" vertex="1">
+          <mxGeometry height="60" width="140" x="50" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="2. JWT Token&#xa;→ localStorage" vertex="1">
+          <mxGeometry height="60" width="140" x="220" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="3. Saisie Rapport&#xa;(RapportAssembleePage)" vertex="1">
+          <mxGeometry height="60" width="160" x="390" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="4. POST /api/rapports&#xa;/assemblee/complet" vertex="1">
+          <mxGeometry height="60" width="160" x="580" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="5. UPSERT PostgreSQL&#xa;rapports_assemblee" vertex="1">
+          <mxGeometry height="60" width="160" x="770" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="6. Dashboard&#xa;GET /api/dashboard/stats" vertex="1">
+          <mxGeometry height="60" width="160" x="960" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="7. Agrégation SQL&#xa;SUM par mois/an" vertex="1">
+          <mxGeometry height="60" width="160" x="1150" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="8. Charts &amp; KPIs&#xa;(tlwm-dashboard)" vertex="1">
+          <mxGeometry height="60" width="160" x="1340" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="fe1" edge="1" parent="1" source="f1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0066cc;strokeWidth=2;endArrow=block;" target="f2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe2" edge="1" parent="1" source="f2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0066cc;strokeWidth=2;endArrow=block;" target="f3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe3" edge="1" parent="1" source="f3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0066cc;strokeWidth=2;endArrow=block;" target="f4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe4" edge="1" parent="1" source="f4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0066cc;strokeWidth=2;endArrow=block;" target="f5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe5" edge="1" parent="1" source="f5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0066cc;strokeWidth=2;endArrow=block;" target="f6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe6" edge="1" parent="1" source="f6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0066cc;strokeWidth=2;endArrow=block;" target="f7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fe7" edge="1" parent="1" source="f7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0066cc;strokeWidth=2;endArrow=block;" target="f8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
