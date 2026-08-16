@@ -1,27 +1,41 @@
-# Node dependencies
+# Dependencies & Build artifacts
 node_modules/
-package-lock.json
+dist/
+build/
 
 # Environment variables & secrets
 .env
 .env.local
 .env.*.local
 
-# Build outputs
-dist/
-build/
-*.log
+# Office & Raw Data files
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pptx
+*.ppt
+~$*
 
-# Editor & OS files
+# GIS Raw shapefiles & PDFs
+tgo_admin_boundaries.shp/
+togo-260722-free.shp/
+cartotgraphies/
+
+# Legacy Python & Extraction scripts
+*.py
+*.txt
+2024/
+2025/
+
+# Legacy CJS conversion scripts & format folders
+*.cjs
+**/format/
+**/format - Copie/
+
+# System & IDE files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# Python cache & temporary files
-__pycache__/
-*.pyc
-
-# Temporary Office Lock Files
-~$*
-
+*.log
