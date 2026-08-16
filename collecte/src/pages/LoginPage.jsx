@@ -115,7 +115,7 @@ export default function LoginPage() {
         <div className="absolute -top-24 -right-24 w-80 h-80 rounded-full bg-blue-400/10 blur-xl pointer-events-none" />
         <div className="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-blue-500/10 blur-xl pointer-events-none" />
 
-        <div className="relative z-10 w-full max-w-md mx-auto flex flex-col items-center space-y-4 pt-2">
+        <div className="relative z-10 w-full max-w-md mx-auto flex flex-col items-center space-y-4 pt-20">
           {/* Logo + Nom en ligne */}
           <div className="w-full flex items-center justify-center gap-4 text-left">
             <div className="w-14 h-14 rounded-lg bg-white p-1 shadow-md flex items-center justify-center border-2 border-blue-200/60 shrink-0">
