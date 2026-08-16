@@ -1,0 +1,1034 @@
+[
+  {
+    "id": 1,
+    "district": "BASSAR",
+    "nom": "Bassar",
+    "effectif": 48,
+    "lat": 9.260468,
+    "lng": 0.784253
+  },
+  {
+    "id": 2,
+    "district": "BASSAR",
+    "nom": "Kabou",
+    "effectif": 24,
+    "lat": 9.454745,
+    "lng": 0.8185
+  },
+  {
+    "id": 3,
+    "district": "BASSAR",
+    "nom": "Guérin Kouka",
+    "effectif": 15,
+    "lat": 9.691624,
+    "lng": 0.608885
+  },
+  {
+    "id": 4,
+    "district": "BASSAR",
+    "nom": "Dimori",
+    "effectif": 10,
+    "lat": 9.202836,
+    "lng": 0.591929
+  },
+  {
+    "id": 5,
+    "district": "BERCEAU",
+    "nom": "Gbatope lycée",
+    "effectif": 26,
+    "lat": 6.445571,
+    "lng": 1.25992
+  },
+  {
+    "id": 6,
+    "district": "BERCEAU",
+    "nom": "Notsè",
+    "effectif": 112,
+    "lat": 6.939053,
+    "lng": 1.165282
+  },
+  {
+    "id": 7,
+    "district": "BERCEAU",
+    "nom": "Agbelouvé",
+    "effectif": 41,
+    "lat": 6.67183,
+    "lng": 1.167253
+  },
+  {
+    "id": 8,
+    "district": "BERCEAU",
+    "nom": "Wahala (Gotha -Conakry)",
+    "effectif": 12,
+    "lat": 7.18908,
+    "lng": 1.120628
+  },
+  {
+    "id": 9,
+    "district": "BERCEAU",
+    "nom": "Agoto",
+    "effectif": 46,
+    "lat": 6.849863,
+    "lng": 1.370009
+  },
+  {
+    "id": 10,
+    "district": "BERCEAU",
+    "nom": "Davié",
+    "effectif": 83,
+    "lat": 6.385789,
+    "lng": 1.199079
+  },
+  {
+    "id": 11,
+    "district": "BERCEAU",
+    "nom": "Tsevié",
+    "effectif": 143,
+    "lat": 6.419732,
+    "lng": 1.211198
+  },
+  {
+    "id": 12,
+    "district": "BINAH",
+    "nom": "Kétao",
+    "effectif": 77,
+    "lat": 9.6683,
+    "lng": 1.322419
+  },
+  {
+    "id": 13,
+    "district": "BINAH",
+    "nom": "Houloun",
+    "effectif": 32,
+    "lat": 9.684249,
+    "lng": 1.235496
+  },
+  {
+    "id": 14,
+    "district": "BINAH",
+    "nom": "Asere",
+    "effectif": 15,
+    "lat": 9.788618,
+    "lng": 1.313727
+  },
+  {
+    "id": 15,
+    "district": "BINAH",
+    "nom": "Koukade",
+    "effectif": 16,
+    "lat": 9.861798,
+    "lng": 1.36494
+  },
+  {
+    "id": 16,
+    "district": "CENTRAL",
+    "nom": "Sokodé - Barrière",
+    "effectif": 54,
+    "lat": 8.993142000000002,
+    "lng": 1.133688
+  },
+  {
+    "id": 17,
+    "district": "CENTRAL",
+    "nom": "Haloukpaboundou",
+    "effectif": 58,
+    "lat": 8.688631000000003,
+    "lng": 1.114542
+  },
+  {
+    "id": 18,
+    "district": "CENTRAL",
+    "nom": "Solao",
+    "effectif": 7,
+    "lat": 8.766252,
+    "lng": 1.131245
+  },
+  {
+    "id": 19,
+    "district": "CENTRAL",
+    "nom": "Sotouboua",
+    "effectif": 70,
+    "lat": 8.554221,
+    "lng": 0.977939
+  },
+  {
+    "id": 20,
+    "district": "CENTRAL",
+    "nom": "Kassikade",
+    "effectif": 26,
+    "lat": 8.604999,
+    "lng": 1.222739
+  },
+  {
+    "id": 21,
+    "district": "CENTRALE",
+    "nom": "Affossala",
+    "effectif": 56,
+    "lat": 8.454602,
+    "lng": 1.305357
+  },
+  {
+    "id": 22,
+    "district": "GAME",
+    "nom": "Kpoklolo",
+    "effectif": 65,
+    "lat": 6.768942,
+    "lng": 0.970025
+  },
+  {
+    "id": 23,
+    "district": "GAME",
+    "nom": "Atikoloe",
+    "effectif": 42,
+    "lat": 6.766517,
+    "lng": 0.985618
+  },
+  {
+    "id": 24,
+    "district": "GAME",
+    "nom": "Abolodji",
+    "effectif": 19,
+    "lat": 6.753982,
+    "lng": 0.992558
+  },
+  {
+    "id": 25,
+    "district": "GAME",
+    "nom": "Lomnava",
+    "effectif": 26,
+    "lat": 6.73336,
+    "lng": 0.989043
+  },
+  {
+    "id": 26,
+    "district": "GAME",
+    "nom": "Ake",
+    "effectif": 11,
+    "lat": 6.757057,
+    "lng": 0.960465
+  },
+  {
+    "id": 27,
+    "district": "GAME",
+    "nom": "Wonougba",
+    "effectif": 11,
+    "lat": 6.75536,
+    "lng": 0.90878
+  },
+  {
+    "id": 28,
+    "district": "KARA",
+    "nom": "Koutamagou",
+    "effectif": 22,
+    "lat": 10.082772,
+    "lng": 1.195916
+  },
+  {
+    "id": 29,
+    "district": "KARA",
+    "nom": "Kantè",
+    "effectif": 34,
+    "lat": 9.938823,
+    "lng": 1.029362
+  },
+  {
+    "id": 30,
+    "district": "KARA",
+    "nom": "Niamtougou",
+    "effectif": 8,
+    "lat": 9.756717,
+    "lng": 1.105819
+  },
+  {
+    "id": 31,
+    "district": "KARA",
+    "nom": "Dongoyo",
+    "effectif": 180,
+    "lat": 9.545149,
+    "lng": 1.183317
+  },
+  {
+    "id": 32,
+    "district": "KARA",
+    "nom": "Bohou",
+    "effectif": 15,
+    "lat": 9.605137,
+    "lng": 1.160866
+  },
+  {
+    "id": 33,
+    "district": "KARA-SOKODE",
+    "nom": "Défalé",
+    "effectif": 12,
+    "lat": 9.862727,
+    "lng": 1.092697
+  },
+  {
+    "id": 34,
+    "district": "LITTORAL",
+    "nom": "Gbetsogbe",
+    "effectif": 45,
+    "lat": 6.153415,
+    "lng": 1.307565
+  },
+  {
+    "id": 35,
+    "district": "LITTORAL",
+    "nom": "Sogbosito-Kove",
+    "effectif": 144,
+    "lat": 6.250478,
+    "lng": 1.160081
+  },
+  {
+    "id": 36,
+    "district": "LITTORAL",
+    "nom": "Apédokoè",
+    "effectif": 315,
+    "lat": 6.20415,
+    "lng": 1.146228
+  },
+  {
+    "id": 37,
+    "district": "LITTORAL",
+    "nom": "Adetikope",
+    "effectif": 134,
+    "lat": 6.322549,
+    "lng": 1.221887
+  },
+  {
+    "id": 38,
+    "district": "LITTORAL",
+    "nom": "Kpessi",
+    "effectif": 90,
+    "lat": 6.21139,
+    "lng": 1.438875
+  },
+  {
+    "id": 39,
+    "district": "LITTORAL",
+    "nom": "Noepe",
+    "effectif": 45,
+    "lat": 6.258392,
+    "lng": 1.044022
+  },
+  {
+    "id": 40,
+    "district": "LITTORAL",
+    "nom": "Hedzranawoe",
+    "effectif": 40,
+    "lat": 6.194336,
+    "lng": 1.244023
+  },
+  {
+    "id": 41,
+    "district": "LITTORAL",
+    "nom": "Djagblé",
+    "effectif": 267,
+    "lat": 6.24978,
+    "lng": 1.292027
+  },
+  {
+    "id": 42,
+    "district": "LITTORAL",
+    "nom": "Togo 2000",
+    "effectif": 150,
+    "lat": 6.182929,
+    "lng": 1.255299
+  },
+  {
+    "id": 43,
+    "district": "LITTORAL",
+    "nom": "Baguida",
+    "effectif": 310,
+    "lat": 6.172297,
+    "lng": 1.323761
+  },
+  {
+    "id": 44,
+    "district": "LITTORAL",
+    "nom": "Tokoin Gbadago",
+    "effectif": 147,
+    "lat": 6.14748,
+    "lng": 1.214012
+  },
+  {
+    "id": 45,
+    "district": "LITTORAL",
+    "nom": "Klémé",
+    "effectif": 63,
+    "lat": 6.223697,
+    "lng": 1.092297
+  },
+  {
+    "id": 46,
+    "district": "LITTORAL",
+    "nom": "Bè",
+    "effectif": 260,
+    "lat": 6.155721,
+    "lng": 1.252119
+  },
+  {
+    "id": 47,
+    "district": "LITTORAL",
+    "nom": "Wonyome",
+    "effectif": 162,
+    "lat": 6.193847,
+    "lng": 1.149405
+  },
+  {
+    "id": 48,
+    "district": "LITTORAL",
+    "nom": "Cacaveli",
+    "effectif": 48,
+    "lat": 6.216409,
+    "lng": 1.1982
+  },
+  {
+    "id": 49,
+    "district": "LITTORAL",
+    "nom": "Adoglové",
+    "effectif": 20,
+    "lat": 6.307467,
+    "lng": 1.233909
+  },
+  {
+    "id": 50,
+    "district": "LITTORAL",
+    "nom": "Forever",
+    "effectif": 98,
+    "lat": 6.164715,
+    "lng": 1.22465
+  },
+  {
+    "id": 51,
+    "district": "LITTORAL",
+    "nom": "Gbomame",
+    "effectif": 124,
+    "lat": 6.19927,
+    "lng": 1.128131
+  },
+  {
+    "id": 52,
+    "district": "LITTORAL",
+    "nom": "Dabarakondji",
+    "effectif": 181,
+    "lat": 6.176202,
+    "lng": 1.278122
+  },
+  {
+    "id": 53,
+    "district": "LITTORAL",
+    "nom": "Nanégbe",
+    "effectif": 83,
+    "lat": 6.22795,
+    "lng": 1.15123
+  },
+  {
+    "id": 54,
+    "district": "LITTORAL",
+    "nom": "Kove",
+    "effectif": 144,
+    "lat": 6.250083,
+    "lng": 1.15982
+  },
+  {
+    "id": 55,
+    "district": "LITTORAL",
+    "nom": "Atsanve",
+    "effectif": 170,
+    "lat": 6.234807,
+    "lng": 1.204213
+  },
+  {
+    "id": 56,
+    "district": "LITTORAL",
+    "nom": "Awatame",
+    "effectif": 30,
+    "lat": 6.170132,
+    "lng": 1.162627
+  },
+  {
+    "id": 57,
+    "district": "LITTORAL",
+    "nom": "Togblekopé",
+    "effectif": 51,
+    "lat": 6.264055,
+    "lng": 1.217875
+  },
+  {
+    "id": 58,
+    "district": "LITTORAL",
+    "nom": "Agoé Fiovi",
+    "effectif": 170,
+    "lat": 6.24001,
+    "lng": 1.184684
+  },
+  {
+    "id": 59,
+    "district": "LITTORAL",
+    "nom": "Mission-Tové",
+    "effectif": 35,
+    "lat": 6.321566,
+    "lng": 1.126827
+  },
+  {
+    "id": 60,
+    "district": "LITTORAL",
+    "nom": "Adakpamé",
+    "effectif": 165,
+    "lat": 6.177892,
+    "lng": 1.300318
+  },
+  {
+    "id": 61,
+    "district": "LITTORAL",
+    "nom": "Akato viépé",
+    "effectif": 83,
+    "lat": 6.171933,
+    "lng": 1.09115
+  },
+  {
+    "id": 62,
+    "district": "PLATEAUX-EST",
+    "nom": "Atakpamé",
+    "effectif": 13,
+    "lat": 7.52334,
+    "lng": 1.167383
+  },
+  {
+    "id": 63,
+    "district": "PLATEAUX-EST",
+    "nom": "Amou-oblo",
+    "effectif": 14,
+    "lat": 7.387165,
+    "lng": 0.867793
+  },
+  {
+    "id": 64,
+    "district": "PLATEAUX-EST",
+    "nom": "Gbadi Gawado",
+    "effectif": 35,
+    "lat": 7.479363,
+    "lng": 0.76049
+  },
+  {
+    "id": 65,
+    "district": "PLATEAUX-EST",
+    "nom": "Ebeva",
+    "effectif": 15,
+    "lat": 7.526048,
+    "lng": 1.082835
+  },
+  {
+    "id": 66,
+    "district": "PLATEAUX-EST",
+    "nom": "Doulasseme",
+    "effectif": 42,
+    "lat": 7.527693,
+    "lng": 1.119638
+  },
+  {
+    "id": 67,
+    "district": "PLATEAUX-EST",
+    "nom": "Assemblée de GLEI",
+    "effectif": 59,
+    "lat": 7.311867,
+    "lng": 1.164383
+  },
+  {
+    "id": 68,
+    "district": "PLATEAUX-EST",
+    "nom": "Glei",
+    "effectif": 59,
+    "lat": 7.311847,
+    "lng": 1.164271
+  },
+  {
+    "id": 69,
+    "district": "PLATEAUX-EST",
+    "nom": "Kougnohou",
+    "effectif": 28,
+    "lat": 7.656862,
+    "lng": 0.794364
+  },
+  {
+    "id": 70,
+    "district": "PLATEAUX-EST",
+    "nom": "Atkpame",
+    "effectif": 107,
+    "lat": 7.514653,
+    "lng": 1.162978
+  },
+  {
+    "id": 71,
+    "district": "PLATEAUX-EST",
+    "nom": "Anie",
+    "effectif": 50,
+    "lat": 7.76997,
+    "lng": 1.203212
+  },
+  {
+    "id": 72,
+    "district": "PLATEAUX-EST",
+    "nom": "Badou",
+    "effectif": 14,
+    "lat": 7.587279,
+    "lng": 0.604776
+  },
+  {
+    "id": 73,
+    "district": "PLATEAUX-EST",
+    "nom": "Sodo",
+    "effectif": 14,
+    "lat": 7.314933,
+    "lng": 0.812785
+  },
+  {
+    "id": 74,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Kpalimé Béthel",
+    "effectif": 119,
+    "lat": 6.899165,
+    "lng": 0.616141
+  },
+  {
+    "id": 75,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Kpalimé Nogo",
+    "effectif": 40,
+    "lat": 6.910642,
+    "lng": 0.651024
+  },
+  {
+    "id": 76,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Kévé et Assahoun",
+    "effectif": 42,
+    "lat": 6.428358,
+    "lng": 0.935753
+  },
+  {
+    "id": 77,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Amoussoukopé",
+    "effectif": 73,
+    "lat": 6.657045,
+    "lng": 0.84584
+  },
+  {
+    "id": 78,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Gadzéfé",
+    "effectif": 35,
+    "lat": 6.844982,
+    "lng": 0.716695
+  },
+  {
+    "id": 79,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Agbadjanakin",
+    "effectif": 11,
+    "lat": 6.481883,
+    "lng": 0.82579
+  },
+  {
+    "id": 80,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Tové Agbessia",
+    "effectif": 10,
+    "lat": 6.874428,
+    "lng": 0.667483
+  },
+  {
+    "id": 81,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Agou Nyogbo",
+    "effectif": 15,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 82,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Attigbé Dzogbepimé",
+    "effectif": 65,
+    "lat": 6.829521,
+    "lng": 0.718081
+  },
+  {
+    "id": 83,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Gadzéfé",
+    "effectif": 35,
+    "lat": 6.844982,
+    "lng": 0.716695
+  },
+  {
+    "id": 84,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Tovegan",
+    "effectif": 16,
+    "lat": 6.564754,
+    "lng": 0.893195
+  },
+  {
+    "id": 85,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Atti atovou",
+    "effectif": 13,
+    "lat": 6.548966,
+    "lng": 0.868742
+  },
+  {
+    "id": 86,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Hanyigba Todzi",
+    "effectif": 32,
+    "lat": 6.894798,
+    "lng": 0.561044
+  },
+  {
+    "id": 87,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Kati",
+    "effectif": 11,
+    "lat": 6.889785,
+    "lng": 0.858707
+  },
+  {
+    "id": 88,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Avetonou",
+    "effectif": 10,
+    "lat": 6.793158,
+    "lng": 0.794638
+  },
+  {
+    "id": 89,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Danyi Elavanyo",
+    "effectif": 9,
+    "lat": 7.281625,
+    "lng": 0.709967
+  },
+  {
+    "id": 90,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Adeta",
+    "effectif": 35,
+    "lat": 7.120767,
+    "lng": 0.74125
+  },
+  {
+    "id": 91,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Koumassi",
+    "effectif": 16,
+    "lat": 6.741921,
+    "lng": 0.677839
+  },
+  {
+    "id": 92,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Klomayondi",
+    "effectif": 19,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 93,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Danyi Koudjravi",
+    "effectif": 5,
+    "lat": 7.137843,
+    "lng": 0.641166
+  },
+  {
+    "id": 94,
+    "district": "PLATEAUX-OUEST",
+    "nom": "Klonou",
+    "effectif": 25,
+    "lat": 6.834621,
+    "lng": 0.67892
+  },
+  {
+    "id": 95,
+    "district": "SAVANES",
+    "nom": "Kpembonga",
+    "effectif": 70,
+    "lat": 10.644045,
+    "lng": 0.357073
+  },
+  {
+    "id": 96,
+    "district": "SAVANES",
+    "nom": "dapaong",
+    "effectif": 89,
+    "lat": 10.875632,
+    "lng": 0.2059
+  },
+  {
+    "id": 97,
+    "district": "SAVANES",
+    "nom": "Mango",
+    "effectif": 53,
+    "lat": 10.329373,
+    "lng": 0.465871
+  },
+  {
+    "id": 98,
+    "district": "SAVANES",
+    "nom": "Barkoissi",
+    "effectif": 21,
+    "lat": 10.559562,
+    "lng": 0.310104
+  },
+  {
+    "id": 99,
+    "district": "SAVANES",
+    "nom": "Kadjitièri 2",
+    "effectif": 8,
+    "lat": 10.58397,
+    "lng": 0.394449
+  },
+  {
+    "id": 100,
+    "district": "SAVANES",
+    "nom": "Mandjieri",
+    "effectif": 59,
+    "lat": 10.660502,
+    "lng": 0.28851
+  },
+  {
+    "id": 101,
+    "district": "SAVANES",
+    "nom": "Naki Est",
+    "effectif": 7,
+    "lat": 10.698617,
+    "lng": 0.392491
+  },
+  {
+    "id": 102,
+    "district": "YOTO",
+    "nom": "Kpotossou-Hedje",
+    "effectif": 24,
+    "lat": 6.335196,
+    "lng": 1.445366
+  },
+  {
+    "id": 103,
+    "district": "YOTO",
+    "nom": "Tchekpo-Dedekpoe",
+    "effectif": 18,
+    "lat": 6.532004,
+    "lng": 1.359879
+  },
+  {
+    "id": 104,
+    "district": "YOTO",
+    "nom": "Dzrekpo Apedome",
+    "effectif": 8,
+    "lat": 6.37799,
+    "lng": 1.560778
+  },
+  {
+    "id": 105,
+    "district": "YOTO",
+    "nom": "Sevatonou",
+    "effectif": 15,
+    "lat": 6.29229,
+    "lng": 1.417652
+  },
+  {
+    "id": 106,
+    "district": "YOTO",
+    "nom": "Aneho zebevi",
+    "effectif": 54,
+    "lat": 6.259641,
+    "lng": 1.609654
+  },
+  {
+    "id": 107,
+    "district": "YOTO",
+    "nom": "Ahepe",
+    "effectif": 15,
+    "lat": 6.602514,
+    "lng": 1.393863
+  },
+  {
+    "id": 108,
+    "district": "YOTO",
+    "nom": "Tannou",
+    "effectif": 27,
+    "lat": 6.373676,
+    "lng": 1.643362
+  },
+  {
+    "id": 109,
+    "district": "YOTO",
+    "nom": "Adangbé",
+    "effectif": 11,
+    "lat": 6.556236,
+    "lng": 1.265787
+  },
+  {
+    "id": 110,
+    "district": "YOTO",
+    "nom": "Dzrekpo centre",
+    "effectif": 35,
+    "lat": 6.477427,
+    "lng": 1.564597
+  },
+  {
+    "id": 111,
+    "district": "YOTO",
+    "nom": "Adangbe",
+    "effectif": 11,
+    "lat": 6.524042,
+    "lng": 1.28967
+  },
+  {
+    "id": 112,
+    "district": "YOTO",
+    "nom": "Kpeve",
+    "effectif": 5,
+    "lat": 6.549965,
+    "lng": 1.274427
+  },
+  {
+    "id": 113,
+    "district": "YOTO",
+    "nom": "Afagna",
+    "effectif": 22,
+    "lat": 6.512755,
+    "lng": 1.608121
+  },
+  {
+    "id": 114,
+    "district": "YOTO",
+    "nom": "Vogan-ville",
+    "effectif": 39,
+    "lat": 6.34199,
+    "lng": 1.530384
+  },
+  {
+    "id": 115,
+    "district": "YOTO",
+    "nom": "Aklakou Hetchiavi",
+    "effectif": 8,
+    "lat": 6.348155,
+    "lng": 1.710675
+  },
+  {
+    "id": 116,
+    "district": "YOTO",
+    "nom": "Tabligbo",
+    "effectif": 30,
+    "lat": 6.590925,
+    "lng": 1.490738
+  },
+  {
+    "id": 117,
+    "district": "YOTO",
+    "nom": "Kouvé",
+    "effectif": 12,
+    "lat": 6.663602,
+    "lng": 1.420465
+  },
+  {
+    "id": 118,
+    "district": "YOTO",
+    "nom": "Atakpamede",
+    "effectif": 5,
+    "lat": 6.642605,
+    "lng": 1.560093
+  },
+  {
+    "id": 119,
+    "district": "YOTO",
+    "nom": "Sevatonou",
+    "effectif": 15,
+    "lat": 6.29054,
+    "lng": 1.413267
+  },
+  {
+    "id": 120,
+    "district": "YOTO",
+    "nom": "Kpémé",
+    "effectif": 38,
+    "lat": 6.225118,
+    "lng": 1.500648
+  },
+  {
+    "id": 121,
+    "district": "YOTO",
+    "nom": "Donomade",
+    "effectif": 13,
+    "lat": 6.791414,
+    "lng": 1.532032
+  },
+  {
+    "id": 122,
+    "district": "YOTO",
+    "nom": "Kpome Apeyeme",
+    "effectif": 60,
+    "lat": 6.288032,
+    "lng": 1.362113
+  },
+  {
+    "id": 123,
+    "district": "YOTO",
+    "nom": "Ahépé",
+    "effectif": 15,
+    "lat": 6.602401,
+    "lng": 1.393913
+  },
+  {
+    "id": 124,
+    "district": "YOTO",
+    "nom": "Dzrekpo centre",
+    "effectif": 33,
+    "lat": 6.470097,
+    "lng": 1.565757
+  },
+  {
+    "id": 125,
+    "district": "YOTO",
+    "nom": "Kpome Akadjame",
+    "effectif": 28,
+    "lat": 6.332415,
+    "lng": 1.336474
+  },
+  {
+    "id": 126,
+    "district": "YOTO",
+    "nom": "Abobo",
+    "effectif": 5,
+    "lat": 6.235451,
+    "lng": 1.371543
+  },
+  {
+    "id": 127,
+    "district": "YOTO",
+    "nom": "Djokoto",
+    "effectif": 26,
+    "lat": 6.468468,
+    "lng": 1.541344
+  },
+  {
+    "id": 128,
+    "district": "YOTO",
+    "nom": "Hahotoe",
+    "effectif": 36,
+    "lat": 6.361248,
+    "lng": 1.423677
+  },
+  {
+    "id": 129,
+    "district": "YOTO",
+    "nom": "Kpome Akadjame",
+    "effectif": 32,
+    "lat": 6.328673,
+    "lng": 1.333967
+  }
+]
