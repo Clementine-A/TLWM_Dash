@@ -1,0 +1,10 @@
+backend-api/
+database/
+*.py
+*.docx
+*.xlsx
+*.pptx
+*.shp
+2024/
+2025/
+tlwm-dashboard/

@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd collecte && npm install && npm run build",
+  "outputDirectory": "collecte/dist",
+  "installCommand": "echo skip",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

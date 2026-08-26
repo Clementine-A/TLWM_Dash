@@ -1,0 +1,45 @@
+node_modules/
+dist/
+.env
+.DS_Store
+Thumbs.db
+*.log
+
+# Données brutes / archives — ne pas versionner
+2024/
+2025/
+
+# Scripts Python
+*.py
+
+# Fichiers Office et cartographie
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+*.shp
+*.dbf
+*.prj
+*.cpg
+*.shx
+
+# Dossiers non essentiels au déploiement
+cartotgraphies/
+tgo_admin_boundaries.shp/
+togo-260722-free.shp/
+tlwm-dashboard/
+
+# Fichiers racine de l'ancien prototype (tlwm-dashboard)
+/src/
+/index.html
+/public/
+/tailwind.config.js
+/postcss.config.js
+/vite.config.js
+/eslint.config.js
+/package.json
+/package-lock.json
+
+# Divers
+*.drawio
+README.md
