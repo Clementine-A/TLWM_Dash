@@ -1,0 +1,546 @@
+{
+  "districts_aggregate": [
+    {
+      "name": "DNMF",
+      "sem": 8,
+      "assistance": 474,
+      "programmes": [
+        "RETRAITE à Kara",
+        "Rencontre des 2 divisions du département avec le chef du dép",
+        "Réunion du bureau",
+        "Lancement officiel de l’école des prédicateurs du district d",
+        "Rencontre des formateurs, DM, et le directeur de l’école ave",
+        "Lancement officiel de l’école des prédicateurs du district d",
+        "Rencontre des formateurs, DM, et le directeur de l’école ave",
+        "Début des cours aux élèves prédicateurs"
+      ]
+    },
+    {
+      "name": "Lomé",
+      "sem": 15,
+      "assistance": 7457,
+      "programmes": [
+        "Enseignement des GA des Jeunes",
+        "Enseignement des GA des femmes",
+        "Enseignement des GA des hommes",
+        "BÂPTEME",
+        "MEGA SEMINAIRE DE FIN D’ANNEE",
+        "MESSE DE LA PAROLE",
+        "Formation classique dans la PCL"
+      ]
+    },
+    {
+      "name": "Lomé (Prison Civile de Lomé)",
+      "sem": 1,
+      "assistance": 41,
+      "programmes": [
+        "Formation classique"
+      ]
+    },
+    {
+      "name": "Autres districts",
+      "sem": 1,
+      "assistance": 0,
+      "programmes": [
+        "Enseignement des GA"
+      ]
+    },
+    {
+      "name": "District du nord",
+      "sem": 1,
+      "assistance": 208,
+      "programmes": [
+        "Célébration de l’évangile"
+      ]
+    },
+    {
+      "name": "KLOTO",
+      "sem": 6,
+      "assistance": 2097,
+      "programmes": [
+        "MESSE DE LA PAROLE",
+        "BÂPTEME",
+        "CONVENTION DU DISTRICT DE KLOTO"
+      ]
+    },
+    {
+      "name": "GAME",
+      "sem": 2,
+      "assistance": 270,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "BINAH",
+      "sem": 2,
+      "assistance": 142,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "SAVANES",
+      "sem": 2,
+      "assistance": 106,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "BASSAR",
+      "sem": 2,
+      "assistance": 104,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "ZONE KARA",
+      "sem": 2,
+      "assistance": 162,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "ZONE SOKODE",
+      "sem": 2,
+      "assistance": 80,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "SOTOUBOUA",
+      "sem": 2,
+      "assistance": 230,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "ATAKPAME-NYAMASSILLA",
+      "sem": 2,
+      "assistance": 280,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "TSEVIE-NOTSE",
+      "sem": 2,
+      "assistance": 620,
+      "programmes": [
+        "MESSE DE LA PAROLE"
+      ]
+    },
+    {
+      "name": "YOTO",
+      "sem": 3,
+      "assistance": 438,
+      "programmes": [
+        "MESSE DE LA PAROLE",
+        "BÂPTEME"
+      ]
+    },
+    {
+      "name": "DNMF\nKara-Sokodé, binah, bassar, dapaong, sotouboua",
+      "sem": 1,
+      "assistance": 95,
+      "programmes": [
+        "Formation classique"
+      ]
+    }
+  ],
+  "monthly_by_district": {
+    "7": [
+      {
+        "district": "DNMF",
+        "date": "09, 10,11/08/2024",
+        "programme": "RETRAITE à Kara",
+        "assistance": 24,
+        "month_idx": 7
+      },
+      {
+        "district": "Lomé",
+        "date": "13, 14,15/08/2024",
+        "programme": "Enseignement des GA des Jeunes",
+        "assistance": 492,
+        "month_idx": 7
+      },
+      {
+        "district": "Lomé",
+        "date": "20, 21, 22/08/2024",
+        "programme": "Enseignement des GA des femmes",
+        "assistance": 632,
+        "month_idx": 7
+      },
+      {
+        "district": "Lomé",
+        "date": "27, 28, 29/08/2024",
+        "programme": "Enseignement des GA des hommes",
+        "assistance": 409,
+        "month_idx": 7
+      },
+      {
+        "district": "Lomé (Prison Civile de Lomé)",
+        "date": "20, 21, 22, 23/08/2024",
+        "programme": "Formation classique",
+        "assistance": 41,
+        "month_idx": 7
+      },
+      {
+        "district": "DNMF",
+        "date": "26/08/2024",
+        "programme": "Rencontre des 2 divisions du département avec le chef du dép",
+        "assistance": 3,
+        "month_idx": 7
+      },
+      {
+        "district": "Autres districts",
+        "date": "31/08/2024",
+        "programme": "Enseignement des GA",
+        "assistance": 0,
+        "month_idx": 7
+      }
+    ],
+    "11": [
+      {
+        "district": "District du nord",
+        "date": "07/12/2024",
+        "programme": "Célébration de l’évangile",
+        "assistance": 208,
+        "month_idx": 11
+      },
+      {
+        "district": "KLOTO",
+        "date": "07 AU 08/12/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 240,
+        "month_idx": 11
+      },
+      {
+        "district": "GAME",
+        "date": "14 AU 15/12/2025",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 135,
+        "month_idx": 11
+      },
+      {
+        "district": "BINAH",
+        "date": "21 AU 23/12/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 71,
+        "month_idx": 11
+      },
+      {
+        "district": "DNMF",
+        "date": "14/12/2024",
+        "programme": "Réunion du bureau",
+        "assistance": 10,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "21/12/2024",
+        "programme": "BÂPTEME",
+        "assistance": 9,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "26 au 28/12/2024",
+        "programme": "MEGA SEMINAIRE DE FIN D’ANNEE",
+        "assistance": 1331,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "26 au 28/12/2024",
+        "programme": "MEGA SEMINAIRE DE FIN D’ANNEE",
+        "assistance": 451,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "26 au 28/12/2024",
+        "programme": "MEGA SEMINAIRE DE FIN D’ANNEE",
+        "assistance": 167,
+        "month_idx": 11
+      },
+      {
+        "district": "SAVANES",
+        "date": "09 AU 10/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 53,
+        "month_idx": 11
+      },
+      {
+        "district": "BASSAR",
+        "date": "09 AU 10/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 52,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "09 - 14/11/2024\n&\n23 – 28/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 965,
+        "month_idx": 11
+      },
+      {
+        "district": "ZONE KARA",
+        "date": "16 - 21/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 81,
+        "month_idx": 11
+      },
+      {
+        "district": "ZONE SOKODE",
+        "date": "16 - 17/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 40,
+        "month_idx": 11
+      },
+      {
+        "district": "SOTOUBOUA",
+        "date": "23 – 24/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 115,
+        "month_idx": 11
+      },
+      {
+        "district": "ATAKPAME-NYAMASSILLA",
+        "date": "23 – 24/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 140,
+        "month_idx": 11
+      },
+      {
+        "district": "TSEVIE-NOTSE",
+        "date": "23 – 28/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 310,
+        "month_idx": 11
+      },
+      {
+        "district": "YOTO",
+        "date": "30/11 – 05/12/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 210,
+        "month_idx": 11
+      },
+      {
+        "district": "KLOTO",
+        "date": "07 AU 08/12/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 240,
+        "month_idx": 11
+      },
+      {
+        "district": "GAME",
+        "date": "14 AU 15/12/2025",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 135,
+        "month_idx": 11
+      },
+      {
+        "district": "BINAH",
+        "date": "21 AU 23/12/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 71,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "26 au 28/12/2024",
+        "programme": "MEGA SEMINAIRE DE FIN D’ANNEE",
+        "assistance": 1331,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "26 au 28/12/2024",
+        "programme": "MEGA SEMINAIRE DE FIN D’ANNEE",
+        "assistance": 451,
+        "month_idx": 11
+      },
+      {
+        "district": "LOME",
+        "date": "26 au 28/12/2024",
+        "programme": "MEGA SEMINAIRE DE FIN D’ANNEE",
+        "assistance": 167,
+        "month_idx": 11
+      }
+    ],
+    "10": [
+      {
+        "district": "KLOTO",
+        "date": "01/11/2024",
+        "programme": "BÂPTEME",
+        "assistance": 100,
+        "month_idx": 10
+      },
+      {
+        "district": "LOME",
+        "date": "02/11/2024",
+        "programme": "BÂPTEME",
+        "assistance": 29,
+        "month_idx": 10
+      },
+      {
+        "district": "YOTO",
+        "date": "24/11/2024",
+        "programme": "BÂPTEME",
+        "assistance": 18,
+        "month_idx": 10
+      },
+      {
+        "district": "SAVANES",
+        "date": "09 AU 10/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 53,
+        "month_idx": 10
+      },
+      {
+        "district": "BASSAR",
+        "date": "09 AU 10/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 52,
+        "month_idx": 10
+      },
+      {
+        "district": "LOME",
+        "date": "09 - 14/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 425,
+        "month_idx": 10
+      },
+      {
+        "district": "ZONE KARA",
+        "date": "16 - 21/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 81,
+        "month_idx": 10
+      },
+      {
+        "district": "ZONE SOKODE",
+        "date": "16 - 17/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 40,
+        "month_idx": 10
+      },
+      {
+        "district": "SOTOUBOUA",
+        "date": "23 – 24/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 115,
+        "month_idx": 10
+      },
+      {
+        "district": "ATAKPAME-NYAMASSILLA",
+        "date": "23 – 24/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 140,
+        "month_idx": 10
+      },
+      {
+        "district": "TSEVIE-NOTSE",
+        "date": "23 – 28/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 310,
+        "month_idx": 10
+      },
+      {
+        "district": "LOME",
+        "date": "23 – 28/11/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 540,
+        "month_idx": 10
+      },
+      {
+        "district": "YOTO",
+        "date": "30/11 – 05/12/2024",
+        "programme": "MESSE DE LA PAROLE",
+        "assistance": 210,
+        "month_idx": 10
+      }
+    ],
+    "9": [
+      {
+        "district": "DNMF",
+        "date": "12/10/2024",
+        "programme": "Lancement officiel de l’école des prédicateurs du district d",
+        "assistance": 70,
+        "month_idx": 9
+      },
+      {
+        "district": "KLOTO",
+        "date": "Du 25 Oct - 01 Nov",
+        "programme": "CONVENTION DU DISTRICT DE KLOTO",
+        "assistance": 1081,
+        "month_idx": 9
+      },
+      {
+        "district": "KLOTO",
+        "date": "Du 25 Oct - 01 Nov",
+        "programme": "CONVENTION DU DISTRICT DE KLOTO",
+        "assistance": 336,
+        "month_idx": 9
+      },
+      {
+        "district": "KLOTO",
+        "date": "01/11/2024",
+        "programme": "BÂPTEME",
+        "assistance": 100,
+        "month_idx": 9
+      }
+    ],
+    "8": [
+      {
+        "district": "DNMF\nKara-Sokodé, binah, bassar, dapaong, sotouboua",
+        "date": "Du 09 au 14/09/2024",
+        "programme": "Formation classique",
+        "assistance": 95,
+        "month_idx": 8
+      },
+      {
+        "district": "DNMF",
+        "date": "20/09/2024",
+        "programme": "Rencontre des formateurs, DM, et le directeur de l’école ave",
+        "assistance": 5,
+        "month_idx": 8
+      },
+      {
+        "district": "DNMF",
+        "date": "21/09/2024",
+        "programme": "Lancement officiel de l’école des prédicateurs du district d",
+        "assistance": 191,
+        "month_idx": 8
+      },
+      {
+        "district": "DNMF",
+        "date": "23/09/2024",
+        "programme": "Rencontre des formateurs, DM, et le directeur de l’école ave",
+        "assistance": 10,
+        "month_idx": 8
+      },
+      {
+        "district": "DNMF",
+        "date": "25/09/2024",
+        "programme": "Début des cours aux élèves prédicateurs",
+        "assistance": 161,
+        "month_idx": 8
+      },
+      {
+        "district": "Lomé",
+        "date": "Du 23 au 28/09/2024",
+        "programme": "Formation classique dans la PCL",
+        "assistance": 58,
+        "month_idx": 8
+      }
+    ]
+  }
+}

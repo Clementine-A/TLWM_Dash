@@ -48,10 +48,22 @@ const DISTRICT_COLORS = {
 };
 const getDistrictColor = (d) => DISTRICT_COLORS[d] || '#94a3b8';
 
-// ─── Adapter Togo bounds ───────────────────────────────────────────────────
+// ─── Adapter Togo bounds ────────────────────────────────────────────────────
 function FitTogo() {
   const map = useMap();
   useEffect(() => { map.fitBounds([[6.0, -0.1], [11.2, 1.8]]); }, [map]);
+  return null;
+}
+
+// ─── Pane prioritaire pour les assemblées (z-index > overlayPane 400) ────────
+function CreatePane() {
+  const map = useMap();
+  useEffect(() => {
+    if (!map.getPane('assembleesPane')) {
+      map.createPane('assembleesPane');
+      map.getPane('assembleesPane').style.zIndex = 650;
+    }
+  }, [map]);
   return null;
 }
 
@@ -153,7 +165,7 @@ const MapPage = () => {
             </div>
             <div>
               <h2 className={`text-base font-extrabold leading-none ${isDark ? 'text-white' : 'text-slate-800'}`}>
-                Carte des Assemblées — Togo
+                Carte des Assemblées - Togo
               </h2>
               <p className={`text-[10px] ${isDark ? 'text-slate-500' : 'text-slate-400'}`}>
                 {filtered.length} assemblées · {totalEffectif.toLocaleString('fr-FR')} membres
@@ -218,6 +230,7 @@ const MapPage = () => {
             zoomControl={false}
           >
             <FitTogo />
+            <CreatePane />
             <ZoomControl position="bottomright" />
 
             {/* Fond de carte */}
@@ -271,26 +284,30 @@ const MapPage = () => {
                   key={a.id}
                   center={[a.lat, a.lng]}
                   radius={isSelected ? radius + 3 : radius}
+                  pane="assembleesPane"
                   pathOptions={{
                     color:       isSelected ? '#fff' : color,
                     weight:      isSelected ? 2.5 : 1.5,
                     fillColor:   color,
                     fillOpacity: isSelected ? 1 : 0.88,
+                    interactive: true,
                   }}
                   eventHandlers={{ click: () => setSelectedAssemblee(a) }}
                 >
                   <Popup maxWidth={220}>
-                    <div style={{ fontFamily: 'Inter,sans-serif', minWidth: 170 }}>
-                      <p style={{ fontWeight: 800, fontSize: 13, color, marginBottom: 2 }}>{a.nom}</p>
-                      <p style={{ fontSize: 11, color: '#94a3b8', marginBottom: 8 }}>District {a.district}</p>
+                    <div style={{ fontFamily: 'Inter,sans-serif', minWidth: 180 }}>
+                      <p style={{ fontWeight: 800, fontSize: 14, color, marginBottom: 2 }}>{a.nom}</p>
+                      <p style={{ fontSize: 11, color: '#94a3b8', marginBottom: 10 }}>District {a.district}</p>
                       <div style={{
-                        background: isDark ? '#1e293b' : '#f8fafc',
-                        borderRadius: 8, padding: '6px 10px',
-                        display: 'flex', justifyContent: 'space-between', alignItems: 'center'
+                        background: '#0f172a',
+                        borderRadius: 10, padding: '8px 12px',
+                        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                        border: '1px solid #1e293b'
                       }}>
-                        <span style={{ fontSize: 10, color: '#94a3b8' }}>Effectif</span>
-                        <span style={{ fontWeight: 700, fontSize: 14, color: '#1e293b' }}>
-                          {a.effectif || '—'} membres
+                        <span style={{ fontSize: 11, color: '#64748b', fontWeight: 600 }}>Effectif</span>
+                        <span style={{ fontWeight: 800, fontSize: 18, color: '#f1f5f9' }}>
+                          {a.effectif ? a.effectif.toLocaleString('fr-FR') : '—'}
+                          <span style={{ fontSize: 11, color: '#94a3b8', fontWeight: 400, marginLeft: 4 }}>mbr</span>
                         </span>
                       </div>
                     </div>

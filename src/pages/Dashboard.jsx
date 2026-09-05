@@ -14,11 +14,13 @@ import ActivitiesTable from '../components/ActivitiesTable';
 import DifficultesSection from '../components/DifficultesSection';
 import MissionPulse from '../components/MissionPulse';
 import YoYChart from '../components/YoYChart';
+import InsightsPanel from '../components/InsightsPanel';
+import Districts2024 from '../components/Districts2024';
 
 import useStore from '../store/useStore';
 import {
   getMonthlyData, computeAnnualTotals, getHumanResources,
-  getYoYComparison, MONTH_ABBR,
+  getYoYComparison, getEnrichedMetrics, MONTH_ABBR,
 } from '../data/mockData';
 
 const Dashboard = () => {
@@ -30,6 +32,12 @@ const Dashboard = () => {
   const annualTotals = useMemo(() => computeAnnualTotals(selectedYear), [selectedYear]);
   const hrBase = useMemo(() => getHumanResources(selectedYear), [selectedYear]);
   const yoy = useMemo(() => getYoYComparison(), []);
+  // Métriques enrichies (invités, témoignages, baptisés, cellules) — disponibles surtout en 2026
+  const enriched = useMemo(() => {
+    const months = hasFilter ? selectedMonths : null;
+    return getEnrichedMetrics(selectedYear, months);
+  }, [selectedYear, hasFilter, selectedMonths]);
+  const has2026Enriched = selectedYear === 2026;
 
   // Données filtrées selon les mois sélectionnés
   const filteredMonthData = useMemo(() => {
@@ -148,7 +156,13 @@ const Dashboard = () => {
               {hasFilter ? filterLabel : `Année ${selectedYear}`}
             </h2>
             <p className={`text-[11px] ${isDark ? 'text-slate-500' : 'text-slate-500'}`}>
-              Rapports d'Activités Missionnaires : DAMF TOGO
+              Rapports d'Activités Missionnaires - DAMF TOGO
+              {selectedYear === 2026 && (
+                <span className={`ml-2 px-1.5 py-0.5 rounded text-[9px] font-bold uppercase
+                  ${isDark ? 'bg-violet-500/15 text-violet-400' : 'bg-violet-100 text-violet-700'}`}>
+                  Jan-Juil 2026
+                </span>
+              )}
             </p>
           </div>
           {hasFilter && (
@@ -232,7 +246,36 @@ const Dashboard = () => {
           />
         </div>
 
-        {/* ── Charts Row 1 ── */}
+        {/* - Métriques enrichies 2026 - */}
+        {has2026Enriched && (
+          <div className={`rounded-2xl border p-4 theme-transition
+            ${isDark ? 'bg-violet-500/5 border-violet-500/20' : 'bg-violet-50 border-violet-200'}`}>
+            <p className={`text-[10px] uppercase tracking-widest font-semibold mb-3
+              ${isDark ? 'text-violet-400' : 'text-violet-600'}`}>
+              Nouvelles métriques 2026 - Indicateurs enrichis
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+              {[
+                { label: 'Invités', value: enriched.invites, color: isDark ? 'text-violet-300' : 'text-violet-700' },
+                { label: 'Témoignages', value: enriched.temoignages, color: isDark ? 'text-indigo-300' : 'text-indigo-700' },
+                { label: 'Baptisés', value: enriched.baptises, color: isDark ? 'text-blue-300' : 'text-blue-700' },
+                { label: 'Cellules (fin)', value: enriched.cellules, color: isDark ? 'text-emerald-300' : 'text-emerald-700' },
+                { label: '% Inv→Sauvés', value: `${enriched.tauxInvitesSauves}%`, color: isDark ? 'text-amber-300' : 'text-amber-700' },
+              ].map((item) => (
+                <div key={item.label}
+                  className={`rounded-xl px-3 py-2 border
+                    ${isDark ? 'bg-navy-800/50 border-slate-700/50' : 'bg-white border-slate-200 shadow-sm'}`}>
+                  <p className={`text-[9px] truncate ${isDark ? 'text-slate-500' : 'text-slate-400'}`}>{item.label}</p>
+                  <p className={`text-sm font-extrabold ${item.color}`}>
+                    {typeof item.value === 'number' ? item.value.toLocaleString('fr-FR') : item.value}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* - Charts Row 1 - */}
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
           <div className="xl:col-span-2">
             <MonthlyLineChart selectedMonths={selectedMonths} selectedYear={selectedYear} />
@@ -240,27 +283,38 @@ const Dashboard = () => {
           <MissionPulse selectedMonths={selectedMonths} selectedYear={selectedYear} />
         </div>
 
-        {/* ── Charts Row 2 ── */}
+        {/* - Charts Row 2 - */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
           <SeminarsBarChart selectedMonths={selectedMonths} selectedYear={selectedYear} />
           <SavedVsAddedChart selectedMonths={selectedMonths} selectedYear={selectedYear} />
           <PieRepartition selectedMonths={selectedMonths} selectedYear={selectedYear} />
         </div>
 
-        {/* ── YoY Comparison (only when no month filter) ── */}
+        {/* - YoY Comparison (only when no month filter) - */}
         {!hasFilter && (
           <YoYChart yoy={yoy} />
         )}
 
-        {/* ── Activities Table ── */}
+        {/* - Insights & Analyse (global, pas de filtre requis) - */}
+        {!hasFilter && (
+          <InsightsPanel />
+        )}
+
+        {/* - Districts 2024 (visible uniquement pour l'annee 2024) - */}
+        {selectedYear === 2024 && (
+          <Districts2024 />
+        )}
+
+        {/* - Activities Table - */}
         <ActivitiesTable selectedYear={selectedYear} />
 
-        {/* ── Difficultés & Perspectives ── */}
+        {/* - Difficultes & Perspectives - */}
         <DifficultesSection selectedYear={selectedYear} />
 
         <footer className={`text-center py-4 border-t text-[10px] transition-colors duration-300
           ${isDark ? 'border-slate-800/50 text-slate-600' : 'border-slate-200 text-slate-400'}`}>
-          ALWM Dashboard · DAMF TOGO {selectedYear} · Données extraites des rapports officiels mensuels
+          ALWM Dashboard - DAMF TOGO {selectedYear}
+          {selectedYear === 2026 ? ' - Données Jan-Juil 2026 (7 mois)' : ' - Données extraites des rapports officiels mensuels'}
         </footer>
       </main>
     </div>

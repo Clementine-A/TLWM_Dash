@@ -23,7 +23,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 55
+        "predicateurs_utilises": 55,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Février",
@@ -47,7 +50,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 115
+        "predicateurs_utilises": 115,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Mars",
@@ -71,7 +77,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 83
+        "predicateurs_utilises": 83,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Avril",
@@ -95,7 +104,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 33
+        "predicateurs_utilises": 33,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Mai",
@@ -119,7 +131,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 70
+        "predicateurs_utilises": 70,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Juin",
@@ -143,7 +158,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 89
+        "predicateurs_utilises": 89,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Juillet",
@@ -167,7 +185,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 90
+        "predicateurs_utilises": 90,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Août",
@@ -191,7 +212,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 79
+        "predicateurs_utilises": 79,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Septembre",
@@ -215,7 +239,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 95
+        "predicateurs_utilises": 95,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Octobre",
@@ -239,7 +266,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 85
+        "predicateurs_utilises": 85,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Novembre",
@@ -263,7 +293,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 74
+        "predicateurs_utilises": 74,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       },
       {
         "month": "Décembre",
@@ -287,7 +320,10 @@
         "membres": 0,
         "assemblees_count": 0,
         "districts": 0,
-        "predicateurs_utilises": 74
+        "predicateurs_utilises": 74,
+        "difficultes_mois": [],
+        "perspectives_mois": [],
+        "division_formation": {}
       }
     ],
     "difficultes": [
@@ -331,7 +367,37 @@
         "assemblees_count": 128,
         "districts": 11,
         "predicateurs_utilises": 80,
-        "pourcentage": 17.5
+        "pourcentage": 17.5,
+        "difficultes_mois": [
+          "Manque de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement de cetrains pasteurs et prédicateurs"
+        ],
+        "perspectives_mois": [
+          "Rendre le département plus disponible et plus accessible aux autres départements et aux districts"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 157
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Février",
@@ -355,7 +421,37 @@
         "assemblees_count": 123,
         "districts": 11,
         "predicateurs_utilises": 81,
-        "pourcentage": 16.4
+        "pourcentage": 16.4,
+        "difficultes_mois": [
+          "Manque de misionnaires nationaux",
+          "Indisponibilité de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Rendre le département plus disponible et plus accessible aux autres départements et aux districts"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 157
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Mars",
@@ -379,7 +475,37 @@
         "assemblees_count": 115,
         "districts": 11,
         "predicateurs_utilises": 90,
-        "pourcentage": 18.7
+        "pourcentage": 18.7,
+        "difficultes_mois": [
+          "Manque de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement de cetrains pasteurs et prédicateurs"
+        ],
+        "perspectives_mois": [
+          "Rendre le département plus disponible et plus accessible aux autres départements et aux districts"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 157
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 1,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Avril",
@@ -403,7 +529,43 @@
         "assemblees_count": 114,
         "districts": 11,
         "predicateurs_utilises": 80,
-        "pourcentage": 33.3
+        "pourcentage": 33.3,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Rendre le département plus disponible et plus accessible aux autres départements et aux districts",
+          "Programme de festival de la parole du 17 mai au 08 juin 2025",
+          "Formation classique dans tous les districts",
+          "Renforcement de capacité des PPM des assemblée et tous les DD",
+          "Séminaire VIP dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Convention du district d’Atakpamé-Nyamassilla"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 157
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Mai",
@@ -427,7 +589,43 @@
         "assemblees_count": 116,
         "districts": 11,
         "predicateurs_utilises": 87,
-        "pourcentage": 35.7
+        "pourcentage": 35.7,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Rendre le département plus disponible et plus accessible aux autres départements et aux districts",
+          "Suite du Programme de festival de la parole",
+          "Formation classique dans tous les districts",
+          "Renforcement de capacité des PPM des assemblée et tous les DD",
+          "Séminaire VIP dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Convention du district d’Atakpamé-Nyamassilla"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 150
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 11,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 498,
+            "femmes_formees": 681,
+            "jeunes_formes": 568
+          }
+        }
       },
       {
         "month": "Juin",
@@ -451,7 +649,43 @@
         "assemblees_count": 119,
         "districts": 11,
         "predicateurs_utilises": 78,
-        "pourcentage": 25.5
+        "pourcentage": 25.5,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Rendre le département plus disponible et plus accessible aux autres départements et aux districts",
+          "Retraite departementale du 11 au 13/07/2025",
+          "Formation classique dans tous les districts",
+          "Renforcement de capacité des PPM des assemblée et tous les DD",
+          "Séminaire VIP dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Convention du district d’Atakpamé-Nyamassilla"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 150
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 2,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Juillet",
@@ -475,7 +709,41 @@
         "assemblees_count": 119,
         "districts": 11,
         "predicateurs_utilises": 74,
-        "pourcentage": 31.3
+        "pourcentage": 31.3,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Renforcement de capacité des PPM des assemblée et tous les DD",
+          "Formation classique dans tous les districts",
+          "Séminaire VIP dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 150
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Août",
@@ -499,7 +767,40 @@
         "assemblees_count": 119,
         "districts": 11,
         "predicateurs_utilises": 82,
-        "pourcentage": 16.2
+        "pourcentage": 16.2,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Formation classique dans tous les districts",
+          "Séminaire VIP dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 150
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 11,
+            "leaders_renforces": 11,
+            "hommes_formes": 158,
+            "femmes_formees": 158,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Septembre",
@@ -523,7 +824,40 @@
         "assemblees_count": 118,
         "districts": 11,
         "predicateurs_utilises": 96,
-        "pourcentage": 17.7
+        "pourcentage": 17.7,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Formation classique dans le district d’ATAKPAME-NYAMASSILLA et SAVANES",
+          "Séminaire VIP dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 2,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 150
+          },
+          "sfd_classique": {
+            "formations_classiques": 1,
+            "sauves_formes": 1072,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 2
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Octobre",
@@ -547,7 +881,39 @@
         "assemblees_count": 118,
         "districts": 11,
         "predicateurs_utilises": 88,
-        "pourcentage": 22.3
+        "pourcentage": 22.3,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Séminaire VIP dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 4,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 161
+          },
+          "sfd_classique": {
+            "formations_classiques": 2,
+            "sauves_formes": 292,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 1
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Novembre",
@@ -571,7 +937,39 @@
         "assemblees_count": 118,
         "districts": 11,
         "predicateurs_utilises": 86,
-        "pourcentage": 17.6
+        "pourcentage": 17.6,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission"
+        ],
+        "perspectives_mois": [
+          "Grand Séminaire de fin d’année  dans tous les districts",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 4,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 207
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       },
       {
         "month": "Décembre",
@@ -595,19 +993,518 @@
         "assemblees_count": 118,
         "districts": 11,
         "predicateurs_utilises": 73,
-        "pourcentage": 7.0
+        "pourcentage": 7.0,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certain pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Récyclage des pasteurs et prédicateurs",
+          "Récy clage des modules d’école de base"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 4,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 207
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
+      }
+    ],
+    "difficultes": [
+      "Manque de misionnaires nationaux",
+      "Indisponibilité  de certain pasteurs et prédicateurs",
+      "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+      "Manque de moyen de déplacement de cetrains pasteurs et prédicateurs",
+      "Indisponibilité de certain pasteurs et prédicateurs",
+      "Manque de moyen de déplacement pour cetrains pasteurs et prédicateurs pour la mission",
+      "Insuffisance de misionnaires nationaux",
+      "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+      "Faible taux de participation à l’école de base et aux séances de prière"
+    ],
+    "perspectives": [
+      "Rendre le département plus disponible et plus accessible aux autres départements et aux districts",
+      "Programme de festival de la parole du 17 mai au 08 juin 2025",
+      "Formation classique dans tous les districts",
+      "Renforcement de capacité des PPM des assemblée et tous les DD",
+      "Séminaire VIP dans tous les districts",
+      "Récyclage des pasteurs et prédicateurs",
+      "Convention du district d’Atakpamé-Nyamassilla",
+      "Suite du Programme de festival de la parole",
+      "Retraite departementale du 11 au 13/07/2025",
+      "Récyclage des modules d’école de base",
+      "Formation classique dans le district d’ATAKPAME-NYAMASSILLA et SAVANES",
+      "Grand Séminaire de fin d’année  dans tous les districts",
+      "Récy clage des modules d’école de base"
+    ]
+  },
+  "2026": {
+    "monthlyData": [
+      {
+        "month": "Janvier",
+        "monthIndex": 0,
+        "year": 2026,
+        "sem_assemblees": 46,
+        "sem_hors": 14,
+        "sem_total": 60,
+        "assistance": 1052,
+        "invites": 279,
+        "sauves": 208,
+        "temoignages": 91,
+        "ajoutes": 28,
+        "baptises": 31,
+        "predicateurs_utilises": 59,
+        "pourcentage": 13.5,
+        "predicateurs": 72,
+        "pasteurs": 116,
+        "miss_nationaux": 35,
+        "miss_internationaux": 3,
+        "eleves_inscrits": 279,
+        "eleves_actuels": 204,
+        "membres": 8270,
+        "assemblees_count": 121,
+        "districts": 11,
+        "cellules": 31,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certains pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Formations classiques dans les 11 districts",
+          "AG avec les DD",
+          "Renforcement de capacités des PPM et DD",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base",
+          "Etablissement d’une cartographique missionnaire"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 4,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 204
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
+      },
+      {
+        "month": "Février",
+        "monthIndex": 1,
+        "year": 2026,
+        "sem_assemblees": 149,
+        "sem_hors": 50,
+        "sem_total": 199,
+        "assistance": 3071,
+        "invites": 872,
+        "sauves": 494,
+        "temoignages": 175,
+        "ajoutes": 63,
+        "baptises": 4,
+        "predicateurs_utilises": 92,
+        "pourcentage": 12.8,
+        "predicateurs": 72,
+        "pasteurs": 120,
+        "miss_nationaux": 35,
+        "miss_internationaux": 3,
+        "eleves_inscrits": 279,
+        "eleves_actuels": 204,
+        "membres": 8333,
+        "assemblees_count": 120,
+        "districts": 11,
+        "cellules": 32,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certains pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Formations classiques dans le",
+          "Renforcement de capacités des PPM et DD restants",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base",
+          "Etablissement d’une cartographique missionnaire"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 4,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 204
+          },
+          "sfd_classique": {
+            "formations_classiques": 1,
+            "sauves_formes": 46,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 1,
+            "renforcements_capacite": 3,
+            "leaders_renforces": 3,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
+      },
+      {
+        "month": "Mars",
+        "monthIndex": 2,
+        "year": 2026,
+        "sem_assemblees": 176,
+        "sem_hors": 51,
+        "sem_total": 227,
+        "assistance": 2997,
+        "invites": 1004,
+        "sauves": 465,
+        "temoignages": 187,
+        "ajoutes": 62,
+        "baptises": 24,
+        "predicateurs_utilises": 148,
+        "pourcentage": 13.3,
+        "predicateurs": 60,
+        "pasteurs": 132,
+        "miss_nationaux": 35,
+        "miss_internationaux": 3,
+        "eleves_inscrits": 279,
+        "eleves_actuels": 169,
+        "membres": 8395,
+        "assemblees_count": 118,
+        "districts": 11,
+        "cellules": 36,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certains pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Formations classiques dans les district restants",
+          "Renforcement de capacités des PPM et DD restants",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base",
+          "Etablissement d’une cartographique missionnaire"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 4,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 169
+          },
+          "sfd_classique": {
+            "formations_classiques": 1,
+            "sauves_formes": 67,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 2,
+            "renforcements_capacite": 1,
+            "leaders_renforces": 1,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
+      },
+      {
+        "month": "Avril",
+        "monthIndex": 3,
+        "year": 2026,
+        "sem_assemblees": 72,
+        "sem_hors": 32,
+        "sem_total": 104,
+        "assistance": 2982,
+        "invites": 564,
+        "sauves": 377,
+        "temoignages": 157,
+        "ajoutes": 242,
+        "baptises": 35,
+        "predicateurs_utilises": 156,
+        "pourcentage": 64.2,
+        "predicateurs": 60,
+        "pasteurs": 132,
+        "miss_nationaux": 35,
+        "miss_internationaux": 3,
+        "eleves_inscrits": 279,
+        "eleves_actuels": 169,
+        "membres": 8637,
+        "assemblees_count": 120,
+        "districts": 11,
+        "cellules": 38,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certains pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Formations classiques dans les district restants",
+          "Renforcement de capacités des PPM et DD restants",
+          "Récyclage des pasteurs et prédicateurs",
+          "Récyclage des modules d’école de base",
+          "Etablissement d’une cartographique missionnaire"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 4,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 169
+          },
+          "sfd_classique": {
+            "formations_classiques": 3,
+            "sauves_formes": 167,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
+      },
+      {
+        "month": "Mai",
+        "monthIndex": 4,
+        "year": 2026,
+        "sem_assemblees": 99,
+        "sem_hors": 13,
+        "sem_total": 112,
+        "assistance": 2935,
+        "invites": 669,
+        "sauves": 435,
+        "temoignages": 163,
+        "ajoutes": 137,
+        "baptises": 0,
+        "predicateurs_utilises": 132,
+        "pourcentage": 31.5,
+        "predicateurs": 60,
+        "pasteurs": 130,
+        "miss_nationaux": 35,
+        "miss_internationaux": 3,
+        "eleves_inscrits": 279,
+        "eleves_actuels": 149,
+        "membres": 8774,
+        "assemblees_count": 121,
+        "districts": 11,
+        "cellules": 40,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certains pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Formations classiques dans les district restants",
+          "Récyclage des modules d’école de base",
+          "Etablissement d’une cartographique missionnaire",
+          "CNPP le 13-06-2026"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 5,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 149
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 1,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 14,
+            "femmes_formees": 580,
+            "jeunes_formes": 20
+          }
+        }
+      },
+      {
+        "month": "Juin",
+        "monthIndex": 5,
+        "year": 2026,
+        "sem_assemblees": 77,
+        "sem_hors": 26,
+        "sem_total": 103,
+        "assistance": 2915,
+        "invites": 797,
+        "sauves": 0,
+        "temoignages": 182,
+        "ajoutes": 52,
+        "baptises": 0,
+        "predicateurs_utilises": 121,
+        "pourcentage": 0,
+        "predicateurs": 60,
+        "pasteurs": 130,
+        "miss_nationaux": 35,
+        "miss_internationaux": 3,
+        "eleves_inscrits": 279,
+        "eleves_actuels": 149,
+        "membres": 8826,
+        "assemblees_count": 121,
+        "districts": 11,
+        "cellules": 41,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certains pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Culte d’ensemble dans le district de littoral",
+          "Formations classiques dans les district restants",
+          "Récyclage des modules d’école de base"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 5,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 149
+          },
+          "sfd_classique": {
+            "formations_classiques": 0,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 0,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
+      },
+      {
+        "month": "Juillet",
+        "monthIndex": 6,
+        "year": 2026,
+        "sem_assemblees": 78,
+        "sem_hors": 38,
+        "sem_total": 116,
+        "assistance": 3773,
+        "invites": 1054,
+        "sauves": 639,
+        "temoignages": 199,
+        "ajoutes": 40,
+        "baptises": 0,
+        "predicateurs_utilises": 128,
+        "pourcentage": 6.3,
+        "predicateurs": 60,
+        "pasteurs": 131,
+        "miss_nationaux": 35,
+        "miss_internationaux": 3,
+        "eleves_inscrits": 279,
+        "eleves_actuels": 149,
+        "membres": 8866,
+        "assemblees_count": 122,
+        "districts": 11,
+        "cellules": 44,
+        "difficultes_mois": [
+          "Insuffisance de misionnaires nationaux",
+          "Indisponibilité  de certains pasteurs et prédicateurs",
+          "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
+          "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
+          "Faible taux de participation à l’école de base et aux séances de prière"
+        ],
+        "perspectives_mois": [
+          "Culte d’ensemble dans le district de littoral 16-08-2026",
+          "Formations classiques dans les district restants",
+          "Récyclage des modules d’école de base",
+          "Récyclage des pasteurs et prédicateurs sur les 6 sessions",
+          "Retraite departementale du BNMF"
+        ],
+        "division_formation": {
+          "sfa": {
+            "ecoles_ouvertes": 5,
+            "eleves_inscrits": 279,
+            "eleves_actuels": 149
+          },
+          "sfd_classique": {
+            "formations_classiques": 1,
+            "sauves_formes": 0,
+            "formateurs_nationaux": 0,
+            "formateurs_internationaux": 0
+          },
+          "sfd_diverses": {
+            "formations_diverses": 1,
+            "renforcements_capacite": 0,
+            "leaders_renforces": 0,
+            "hommes_formes": 0,
+            "femmes_formees": 0,
+            "jeunes_formes": 0
+          }
+        }
       }
     ],
     "difficultes": [
       "Insuffisance de misionnaires nationaux",
-      "Indisponibilité  de certain pasteurs et prédicateurs",
+      "Indisponibilité  de certains pasteurs et prédicateurs",
       "Manque des PC, Projecteurs et les groups electrogènes pour la mission",
       "Manque de moyen de déplacement pour  cetrains pasteurs et prédicateurs pour la mission",
       "Faible taux de participation à l’école de base et aux séances de prière"
     ],
     "perspectives": [
+      "Formations classiques dans les 11 districts",
+      "AG avec les DD",
+      "Renforcement de capacités des PPM et DD",
       "Récyclage des pasteurs et prédicateurs",
-      "Récy clage des modules d’école de base"
+      "Récyclage des modules d’école de base",
+      "Etablissement d’une cartographique missionnaire",
+      "Formations classiques dans le",
+      "Renforcement de capacités des PPM et DD restants",
+      "Formations classiques dans les district restants",
+      "CNPP le 13-06-2026",
+      "Culte d’ensemble dans le district de littoral",
+      "Culte d’ensemble dans le district de littoral 16-08-2026",
+      "Récyclage des pasteurs et prédicateurs sur les 6 sessions",
+      "Retraite departementale du BNMF"
     ]
   }
 }
